@@ -141,6 +141,6 @@ LOCALE_PATHS = (os.path.join(BASE_DIR, 'locale'),)
 logging.basicConfig(level=logging.INFO,
                 format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
                 datefmt='%a, %d %b %Y %H:%M:%S',
-                filename='/home/svn/Web/ddbid.log',
+                filename='/home/btc/Web/ddbid.log',
                 filemode='w')
 
