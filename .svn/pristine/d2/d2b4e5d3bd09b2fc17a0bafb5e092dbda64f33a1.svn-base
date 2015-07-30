@@ -1,0 +1,11 @@
+<div id="footer">
+    <div class="footer">
+        <a href="#" class="ico1 fr" onmouseover="show()" onmouseout="hide()"></a>
+        <a href="#" class="ico fr"></a>
+        <a href="#" class="fl">关于我们</a>
+        <a href="#" class="fl">联系我们</a>&nbsp;&nbsp;©2014 Cida 上海辞达金融信息服务有限公司&nbsp;&nbsp;&nbsp;&nbsp;沪ICP证0000001号
+        <p id="code" style="display:none;">
+            <img src="/static/image/code.png"/>
+        </p>
+    </div>
+</div>

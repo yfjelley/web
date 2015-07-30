@@ -1,0 +1,29 @@
+{% load staticfiles %}
+{% load settingsvalue %}
+{% load url from future %}
+{% load i18n %}
+<!DOCTYPE html>
+<head></head>
+<body>
+
+<div id="footer">
+    <div class="footer">
+        <a href="#" class="ico1 fr" onmouseover="show()" onmouseout="hide()"></a>
+        <a href="#" class="ico fr"></a>
+        <a href="{% url 'about_us' %}" class="fl">关于我们</a>
+        <a href="{% url 'contact_us' %}" class="fl">联系我们</a>&nbsp;&nbsp;©2014 Cida 上海辞达金融信息服务有限公司&nbsp;&nbsp;&nbsp;&nbsp;沪ICP证0000001号
+        <p id="code" style="display:none;">
+            <img src="/static/image/code.png"/>
+        </p>
+    </div>
+</div>
+<div style="display:none;" id="erweima"><img src="/static/images/erweima_100px.png"></div>
+<script type="text/javascript">
+    function show() {
+        document.getElementById("erweima").style.display = '';
+    };
+    function hide() {
+        document.getElementById("erweima").style.display = 'none';
+    };
+</script>
+</body>

@@ -1,0 +1,73 @@
+{% extends 'base-with-sidebar.html' %}
+{% block top_title %}
+    {% include 'top_title2.html' %}
+{% endblock %}
+{% load i18n %}
+{% block left %}
+<div class="bbs_content bbs_post mt10">
+    <div class="bbs_post_add">
+        <a href="{% url 'bbsindex' %}">{% trans 'home' %}</a>
+        <span><a href="{% url 'node_view' node.id%}">-{{node.title}}</a></span>
+        <span>-创建新话题</span>
+    </div>
+    <div class="panel-body">
+    	{% if messages %}
+		<div class="messages">
+			{% for message in messages %}
+			<p class="text-{{ message.tags }}">
+				{{ message }}
+			</p>
+			{% endfor %}
+		</div>
+		{% endif %}
+        {% if request.user.is_authenticated %}
+        <form class="form" action="{% url 'create_topic' node.id%}" method="post" id="create_topic">
+            {% csrf_token %}
+             <div class="bbs_post_con textbox ">
+                <label class="sr-only" for="title">{% trans 'title' %}{{ messages }}</label>
+                <input placeholder="{% trans 'title' %}" type="text" class="bbs_post_txt" id="title" name="title" />
+                <label class="sr-only" for="content">{% trans 'content' %}</label>
+                <textarea placeholder="{% trans 'content' %}"  class="bbs_post_textarea" id="content" name="content"  ></textarea>
+                <button class="bbs_btn"  onclick="Format()">发布</button>
+                <li class="yzm">
+                   <input name="log_code" id="log_code" type="text" placeholder="验证码"
+                          onfocus="$('#code_pic').click()" />
+                   <a href="javascript:void(0);"><img id="code_pic"
+                     onclick="this.setAttribute('src',{% url 'verifycode' %} + '?nocache='+Math.random());"
+                     src="{% url 'verifycode' %}"/></a>
+                   {% include 'remind.html' %}
+                </li>
+             </div>
+        </form>
+        <div class="previewer">
+
+        </div>
+        {% else %}
+        <div class="alert alert-info">
+            {% trans 'please sign in before post ' %}
+        </div>
+        <a href="{% url 'signin' %}" class="btn btn-info">{% trans 'sign in' %}</a>
+        {% endif %}
+    </div>
+</div><!--end reply panel-->
+{% endblock %}
+{% block right %}
+{% include 'user-panel.html' %}
+{% include 'advert.html' %}
+{% include 'hot-topic.html' %}
+{% include 'essence_topic.html' %}
+{% include 'stat.html' %}
+{% include 'friendly-link.html' %}
+{% endblock %}
+{% block footer_ext %}
+<script src="{{STATIC_URL}}js/previewer.js"></script>
+<script type="text/javascript">
+    function insert_img() {
+        var tc = document.getElementById("content");
+        var tclen = tc.value.length;
+        tc.focus();
+        str = "<img>在此输入图片链接</img>"
+        tc.value = tc.value.substr(0, tc.selectionStart) + str + tc.value.substring(tc.selectionStart, tclen);
+    }
+</script>
+{% endblock %}

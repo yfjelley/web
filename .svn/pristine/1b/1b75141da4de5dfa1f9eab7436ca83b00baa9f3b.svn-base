@@ -1,0 +1,103 @@
+$(function(){
+    var x_time = [];
+    var y_money = [];
+    var y_number = [];
+    var json_money = document.getElementById('json_money').value;
+    var json_mount = document.getElementById('json_mount').value;
+    var json_day = document.getElementById('json_day').value;
+    var moneyList=eval("("+json_money+")")
+    var numberList = eval("("+json_mount+")")
+    var dayList = eval("("+json_day+")")
+    for(var i=0;i<moneyList.length;i++) {
+        for(var key in moneyList[i]){
+            y_money[i]=parseInt(moneyList[i][key])/10000
+        }
+    };
+    for(var i=0;i<numberList.length;i++) {
+        for(var key in numberList[i]){
+            y_number[i]=parseInt(numberList[i][key])
+        }
+    };
+    for(var i=0;i<dayList.length;i++) {
+        for(var key in dayList[i]){
+            x_time[i]=dayList[i][key]
+        }
+    };
+    $('#container').highcharts({
+        title: {
+            text: '成交量',
+            x: -20 //center
+        },
+        xAxis: {
+            categories: x_time
+        },
+        yAxis: {
+            labels: {
+                formatter: function() {
+                    return this.value ;
+                }
+            },
+            max:10000, // 定义Y轴 最大值
+            min: 0,
+            tickInterval:2000,  //刻度值
+            title: {
+                text: '成交量(万元)'
+            },
+            plotLines: [{
+                value: 0,
+                width: 1,
+                color: '#808080'
+            }]
+        },
+        tooltip: {
+            valueSuffix: '万元'
+        },
+        legend: {
+            align: "center",
+            verticalAlign: "bottom"
+        },
+        series: [{
+            name: '成交量',
+            data: y_money
+        }]
+    });
+    $('#container1').highcharts({
+        chart: {
+            type: 'column'
+        },
+        title: {
+            text: '每天交易人数'
+        },
+
+        xAxis: {
+            categories: x_time
+        },
+        yAxis: {
+            max:3000, // 定义Y轴 最大值
+            min: 0,
+            tickInterval:500, // 刻度值
+            title: {
+                text: '投资人数'
+            }
+        },
+        tooltip: {
+            headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+            pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                '<td style="padding:0"><b>{point.y:.1f}人</b></td></tr>',
+            footerFormat: '</table>',
+            shared: true,
+            useHTML: true
+        },
+        plotOptions: {
+            column: {
+                pointPadding: 0.2,
+                borderWidth: 0
+            }
+        },
+        series: [{
+            name: '投资人数',
+            data: y_number
+
+        }]
+    });
+});

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+{% block title %}第三方登陸註冊頁面{% endblock %}
+
+{% block content %}
+<a>wbid:{{ wbid }}</a></br>
+  {% if openid %}
+      <h1>歡迎使用QQ登陸本網站！</h1>
+   <form action="/qq_is_first/" method="post">
+      {{ form.as_p }}
+      <input type="submit" value="註冊">
+    </form>
+{% else %}
+    <h1>歡迎使用微博登陸本網站！</h1>
+      <form action="/wb_is_first/" method="post">
+      {{ form.as_p }}
+      <input type="submit" value="註冊">
+  </form>
+{% endif %}
+
+
+
+{% endblock %}
+</body>
+</html>

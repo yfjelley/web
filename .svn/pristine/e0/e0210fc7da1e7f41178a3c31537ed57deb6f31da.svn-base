@@ -1,0 +1,519 @@
+# coding=utf-8
+
+from django.core.serializers.json import DjangoJSONEncoder
+import MySQLdb
+import datetime, time, decimal
+import json
+import os
+import random
+
+from DjangoCaptcha import Captcha
+from django.core.paginator import Paginator, EmptyPage, InvalidPage
+from django.core.urlresolvers import reverse
+from PIL import Image
+from django.contrib import auth
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth.models import User
+from django.core.exceptions import ObjectDoesNotExist
+from django.core.mail import send_mail
+from django.http import HttpResponseRedirect, HttpResponse
+from django.shortcuts import render_to_response
+from django.template import RequestContext
+from django.template.loader import get_template
+from django.core.files.storage import FileSystemStorage
+
+from inner_views import user_auth, fil_yield, fil_time, fil_lz, fil_capital, fil_online, fil_type, combination_bid, \
+    get_user_filter, data_filter, index_loading, get_pageset, result_sort
+from searcher.forms import ContactForm, SearchForm, LoginForm, UserInformationForm, UserReminderForm
+from searcher.models import Bid, UserFavorite, Platform, UserInformation, DimensionChoice, UserFilter, UserReminder
+from ddbid import conf
+
+
+__author__ = 'pony'
+
+storage = FileSystemStorage(
+    location=conf.UPLOAD_PATH,
+    base_url='/static/upload/'
+)
+
+
+def index(request):
+    if request.method == 'POST':
+        # print(request.POST.get('params', None))
+        form = SearchForm(request.POST)
+        if form.is_valid():
+            cd = form.cleaned_data
+            amount = cd['searchWord']
+        else:
+            return render_to_response('index.html', {'form': form}, context_instance=RequestContext(request))
+
+        try:
+            page = int(request.GET.get('page', '1'))
+        except ValueError:
+            page = 1
+        index_parts = index_loading(amount, None, page)
+        return render_to_response('search_result.html',
+                                  {'results': index_parts.get('results'), 'dimensions': index_parts.get('dimensions'),
+                                   'c_results': index_parts.get('c_result'), 'last_page': index_parts.get('last_page'),
+                                   'page_set': index_parts.get('page_set'), 'form': form},
+                                  context_instance=RequestContext(request))
+    elif request.GET.get('params[]', None) is not None:
+        params = ','.join(request.GET.getlist('params[]'))
+        a = params.split(',')
+        sorttype = request.REQUEST.get('sorttype', None)
+        sortorder = request.REQUEST.get('sortorder', None)
+
+        try:
+            amount = int(request.REQUEST.get('amount', None))
+            results = Bid.objects.filter(amount__gte=amount).order_by("id")
+        except:
+            results = Bid.objects.all()
+        filters = DimensionChoice.objects.filter(id__in=a)
+        results = data_filter(results, filters)
+        results = result_sort(results, sorttype, sortorder)
+        ppp = Paginator(results, 5)
+        try:
+            page = int(request.GET.get('page', '1'))
+        except ValueError:
+            page = 1
+        try:
+            results = ppp.page(page)
+        except (EmptyPage, InvalidPage):
+            results = ppp.page(ppp.num_pages)
+        last_page = ppp.page_range[len(ppp.page_range) - 1]
+        page_set = get_pageset(last_page, page)
+        t = get_template('search_result_single.html')
+        content_html = t.render(
+            RequestContext(request, {'results': results, 'last_page': last_page, 'page_set': page_set}))
+        payload = {
+            'content_html': content_html,
+            'success': True
+        }
+        return HttpResponse(json.dumps(payload), content_type="application/json")
+    else:
+        form = SearchForm()
+        user = auth.get_user(request)
+        if user.id is not None:
+            f_l = get_user_filter(user)
+            return render_to_response('index.html', {'form': form, 'f_ls': f_l},
+                                      context_instance=RequestContext(request))
+        else:
+            return render_to_response('index.html', {'form': form}, context_instance=RequestContext(request))
+
+
+def contact(request):
+    if request.method == 'POST':
+        form = ContactForm(request.POST)
+        if form.is_valid():
+            cd = form.cleaned_data
+            send_mail(
+                cd['subject'],
+                cd['message'],
+                cd.get('email', 'noreply@example.com'),
+                ['siteowner@example.com'],
+            )
+            return HttpResponseRedirect('/contact/thanks/')
+    else:
+        form = ContactForm(initial={'subject': 'I love your site!'})
+    return render_to_response('contact_form.html', {'form': form}, context_instance=RequestContext(request))
+
+
+def login(request):
+    if request.method == 'GET':
+        form = LoginForm()
+        return render_to_response('login.html', {'form': form, },
+                                  context_instance=RequestContext(request))
+    else:
+        form = LoginForm(request.POST)
+        if form.is_valid():
+            username = request.POST.get('username', '')
+            password = request.POST.get('password', '')
+            user = auth.authenticate(username=username, password=password)
+            if user is not None and user.is_active:
+                auth.login(request, user)
+                return HttpResponse('1')
+
+            else:
+                return render_to_response('login.html',
+                                          {'form': form, 'password_is_wrong': True},
+                                          context_instance=RequestContext(request))
+        else:
+            return render_to_response('login.html', {'form': form, },
+                                      context_instance=RequestContext(request))
+
+
+def login_new(request):
+    if request.method == 'POST':
+        username = request.POST['un']
+        pwd = request.POST['pwd']
+        code = request.POST['code']
+        return user_auth(request, username, pwd, code)
+    else:
+        form = LoginForm()
+        return render_to_response('login.html', {'form': form, },
+                                  context_instance=RequestContext(request))
+
+def verifycode(request):
+    figures = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    ca = Captcha(request)
+    ca.words = [''.join([str(random.sample(figures, 1)[0]) for i in range(0, 4)])]
+    ca.type = 'word'
+    ca.img_width = 60
+    ca.img_height = 20
+    return ca.display()
+
+
+def register(request):
+    if request.method == 'POST':
+        response = HttpResponse()
+        response['Content-Type'] = "text/javascript"
+
+        username = request.REQUEST.get('un', None)
+        pwd1 = request.REQUEST.get('pwd', None)
+        pwd2 = request.REQUEST.get('pwd2', None)
+        em = request.REQUEST.get('em', None)
+
+        u = User.objects.filter(username=username)
+        # print(u)
+        if u.exists():
+            response.write(5)  # 用户已存在
+            return response
+        # email = request.POST['em']
+        if pwd1 == pwd2:
+            new_user = User.objects.create_user(username=username, password=pwd1)
+            new_user.save()
+            # initial={'photo_url': '/static/upload/default.png'}
+            u = UserInformation(user=new_user, photo_url='/static/upload/default.png')
+            u.save()
+            user = auth.authenticate(username=username, password=pwd1)
+            auth.login(request, user)
+            return user_auth(request, username, pwd1, None)
+        else:
+            response.write(6)  # 两次输入密码不一致
+            return response
+    else:
+        form = UserCreationForm()
+        return render_to_response("register.html", {'form': form}, context_instance=RequestContext(request))
+
+
+@login_required
+def logout(request):
+    """
+
+    :param request:
+    :return:
+    """
+    auth.logout(request)
+    return HttpResponseRedirect(reverse('searchindex'))
+
+
+@login_required
+def add_favoritebid(request, objectid):
+    user_id = auth.get_user(request).id
+    user = User.objects.get(id=user_id)
+    ftype = 1
+    u = UserFavorite.objects.filter(user_id=user_id, favorite_type=ftype, favorite_id=objectid)
+    if u.exists():
+        return HttpResponse(u'已经收藏过了')
+
+    u1 = UserFavorite(user_id=user_id, favorite_type=ftype, favorite_id=objectid)
+    u1.save()
+    return HttpResponse(u'收藏成功')
+
+
+@login_required
+def add_favoriteplatform(request, objectid):
+    user_id = auth.get_user(request).id
+    user = User.objects.get(id=user_id)
+    ftype = 2
+    u1 = UserFavorite(user_id=user_id, favorite_type=ftype, favorite_id=objectid)
+    u1.save()
+    return HttpResponse(u'收藏成功')
+
+
+@login_required
+def add_reminder(request, objectid):
+    user = auth.get_user(request)
+    try:
+        u_r = UserReminder.objects.get(user=user, bid=objectid)
+        return HttpResponse(u'已存在')
+    except ObjectDoesNotExist:
+        u_r = UserReminder(user=user, bid=objectid, reminder=1, value=1, status=1)
+        u_r.save()
+        return HttpResponse(u'已添加')
+
+
+@login_required
+def del_reminder(request, objectid):
+    user = auth.get_user(request)
+    try:
+        u_r = UserReminder.objects.get(user=user, bid=objectid)
+        u_r.delete()
+        return HttpResponse(u'已删除')
+    except ObjectDoesNotExist:
+        return HttpResponse(u'不存在')
+
+
+@login_required
+def do_reminder(request):
+    user = auth.get_user(request)
+    if request.method == 'POST':
+        b_id = request.POST.get('bid', None)
+        method = request.POST.get('method', None)
+        type = request.POST.get('type', None)
+        if method == 'add':
+            try:
+                u_r = UserReminder.objects.get(user=user, bid=int(b_id), reminder_id=int(type))
+                return HttpResponse(u'已存在')
+            except ObjectDoesNotExist:
+                u_r = UserReminder(user=user, bid_id=int(b_id), reminder_id=int(type), status=1)
+                u_r.save()
+                return HttpResponse(u'已添加')
+        elif method == 'inactive':
+            try:
+                u_r = UserReminder.objects.filter(user=user, bid=int(b_id)).update(status=0)
+                return HttpResponse(u'已修改')
+            except ObjectDoesNotExist:
+                return HttpResponse(u'不存在')
+        elif method == 'del':
+            try:
+                u_r = UserReminder.objects.get(user=user, bid=int(b_id), reminder_id=int(type))
+                u_r.delete()
+                return HttpResponse(u'已删除')
+            except ObjectDoesNotExist:
+                return HttpResponse(u'不存在')
+        elif method == 'change':
+            a = request.POST.getlist('params[]')
+            for i in range(0, 5, 1):
+                try:
+                    u_r = UserReminder.objects.get(user=user, bid=int(b_id), reminder_id=i + 1)
+                except ObjectDoesNotExist:
+                    u_r = UserReminder(user=user, bid_id=int(b_id), reminder_id=i + 1)
+                if int(a[i]) == 0:
+                    u_r.value = 0
+                else:
+                    u_r.value = a[i]
+                    u_r.status = 1
+                u_r.save()
+            return HttpResponse(u'ok')
+    else:
+        reminders = UserReminder.objects.filter(user=user).order_by("bid", "reminder")
+        flag = 2
+        aa = []
+        bb = {}
+        if len(reminders) > 0:
+            t = reminders[0].bid_id
+            for a in reminders:
+                if a.bid_id == t:
+                    if a.reminder_id == 1:
+                        ttt = {'bid_id': a.bid.id, 'bid_name': a.bid.name, 'status': a.status, 'a': a.value}
+                    elif a.reminder_id == 2:
+                        ttt = {'bid_id': a.bid.id, 'bid_name': a.bid.name, 'b': a.value}
+                    elif a.reminder_id == 3:
+                        ttt = {'bid_id': a.bid.id, 'bid_name': a.bid.name, 'c': a.value}
+                    elif a.reminder_id == 4:
+                        ttt = {'bid_id': a.bid.id, 'bid_name': a.bid.name, 'd': a.value}
+                    elif a.reminder_id == 5:
+                        ttt = {'bid_id': a.bid.id, 'bid_name': a.bid.name, 'e': a.value}
+                    bb.update(ttt)
+                    t = a.bid_id
+                else:
+                    aa.append(bb)
+                    bb = {}
+                    if a.reminder_id == 1:
+                        ttt = {'bid_id': a.bid.id, 'bid_name': a.bid.name, 'status': a.status, 'a': a.value}
+                    elif a.reminder_id == 2:
+                        ttt = {'bid_id': a.bid.id, 'bid_name': a.bid.name, 'b': a.value}
+                    elif a.reminder_id == 3:
+                        ttt = {'bid_id': a.bid.id, 'bid_name': a.bid.name, 'c': a.value}
+                    elif a.reminder_id == 4:
+                        ttt = {'bid_id': a.bid.id, 'bid_name': a.bid.name, 'd': a.value}
+                    elif a.reminder_id == 5:
+                        ttt = {'bid_id': a.bid.id, 'bid_name': a.bid.name, 'e': a.value}
+                    bb.update(ttt)
+                    t = a.bid_id
+            aa.append(bb)
+        return render_to_response("user_reminder.html", {'reminders': aa, 'flag': flag},
+                                  context_instance=RequestContext(request))
+
+
+@login_required
+def myfavorite(request, tid):
+    flag = int(tid)
+    userid = auth.get_user(request).id
+    userfavoriteBid = UserFavorite.objects.filter(user=userid, favorite_type=1).values("favorite_id")
+    userfavoriteplatform = UserFavorite.objects.filter(user=userid, favorite_type=2).values("favorite_id")
+    favoriteBid = Bid.objects.filter(id__in=userfavoriteBid)
+    favoriteplatform = Platform.objects.filter(id__in=userfavoriteplatform)
+    if flag == 4:
+        favorites = favoriteBid
+    else:
+        favorites = favoriteplatform
+    return render_to_response("user_favorite.html",
+                              {'favorites': favorites, 'flag': flag}, context_instance=RequestContext(request))
+
+
+def platform(request):
+    pfs = Platform.objects.all()
+    # print(pfs)
+    return render_to_response("platform.html", {'platforms': pfs}, context_instance=RequestContext(request))
+
+
+@login_required
+def userinformation(request):
+    user = auth.get_user(request)
+    flag = 1
+    if request.method == 'POST':
+        form = UserInformationForm(request.POST)
+        f = request.FILES.get('file', None)
+        if f:
+            extension = os.path.splitext(f.name)[-1]
+            print(extension)
+            if f.size > 524288:
+                return HttpResponse("2")
+            if (extension not in ['.jpg', '.png', '.gif']) or ('image' not in f.content_type):
+                return HttpResponse("3")
+            im = Image.open(f)
+            im.thumbnail((120, 120))
+            name = 'photo' + storage.get_available_name(str(user.id)) + '.png'
+            im.save('%s/%s' % (storage.location, name), 'PNG')
+            url = storage.url(name)
+            # print(url)
+
+        if form.is_valid():
+            try:
+                u_i = UserInformation.objects.get(user=user)
+                form1 = UserInformationForm(request.POST, instance=u_i)
+                u_i = form1.save(commit=False)
+                u_i.photo_url = url
+            except ObjectDoesNotExist:
+                u_i = form.save(commit=False)
+                u_i.user = user
+                u_i.photo_url = url
+            u_i.save()
+        return HttpResponseRedirect(reverse('userinformation'))
+    else:
+        try:
+            form = UserInformationForm(instance=user.userinformation)
+        except ObjectDoesNotExist:
+            form = UserInformationForm()
+            # print(form)
+    return render_to_response("user_information.html", {'form': form, 'flag': flag},
+                              context_instance=RequestContext(request))
+
+
+def result_filter(request):
+    params = ','.join(request.POST.getlist('params[]'))
+    a = params.split(',')
+    print(a)
+    filters = DimensionChoice.objects.filter(id__in=a)
+    results = Bid.objects.all()
+    for f in filters:
+        if f.dimension.id == 1:
+            results = fil_yield(results, f.cal_type, f.choice_value1, f.choice_value2)
+        elif f.dimension.id == 2:
+            results = fil_time(results, f.cal_type, f.choice_value1, f.choice_value2)
+        elif f.dimension.id == 3:
+            results = fil_lz(results, f.cal_type, f.choice_value1, f.choice_value2)
+        elif f.dimension.id == 4:
+            results = fil_capital(results, f.cal_type, f.choice_value1, f.choice_value2)
+        elif f.dimension.id == 5:
+            results = fil_online(results, f.cal_type, f.choice_value1, f.choice_value2)
+        elif f.dimension.id == 6:
+            results = fil_type(results, f.cal_type, f.choice_name)
+    t = get_template('search_result_single.html')
+    content_html = t.render(RequestContext(request, {'results': results}))
+    payload = {
+        'content_html': content_html,
+        'success': True
+    }
+    return HttpResponse(json.dumps(payload), content_type="application/json")
+
+
+@login_required
+def save_filter(request):
+    user = auth.get_user(request)
+    if request.method == 'POST':
+        params = str(','.join(request.POST.getlist('params[]')))
+        f_l = UserFilter.objects.filter(user=user)
+        num = len(f_l)
+        if 0 == num:
+            t = UserFilter(user=user, filter_order=1, choices=params)
+        # t = UserFilter(user=user, filter_order=1, choice_yr_id=yieldrate_id, choice_tm_id=time_id)
+        elif 5 <= num:
+            return HttpResponse(u'最多只能保存5个')
+        else:
+            for f in f_l:
+                if str(f.choices) == params:
+                    return HttpResponse(u'已经保存过了')
+            t = UserFilter(user=user, filter_order=num + 1, choices=params)
+        t.save()
+        return HttpResponse(u'保存成功')
+    else:
+
+        flag = 3
+        f_l = get_user_filter(user)
+        dimensions = DimensionChoice.objects.all()
+        return render_to_response("user_shortcut.html", {'f_ls': f_l, 'flag': flag, 'dimensions': dimensions},
+                                  context_instance=RequestContext(request))
+
+
+@login_required
+def del_filter(request, fid):
+    u = UserFilter.objects.get(id=fid)
+    u.delete()
+    return HttpResponseRedirect(reverse('save_filter'))
+
+
+def bid_detail(request, objectid):
+    try:
+        b = Bid.objects.get(id=objectid)
+        now_date = datetime.datetime.now()
+        yes_time_1 = now_date + datetime.timedelta(days=-1)
+        connection = MySQLdb.connect(host="42.96.131.5", user="root", passwd="toor", db="mysql")
+        cursor = connection.cursor()
+        arr_money = []
+        arr_mount = []
+        arr_day = []
+        sql = "select day_id,amount,inv_quantity from t_platform_info_daily where platform_id=%d" %(b.platform.id)
+        cursor.execute(sql)
+        cds = cursor.fetchall()
+        i= 0
+        for abc in cds:
+            i+=1
+
+            money = {'money%d'%i: abc[1]}
+            mount = {'amount%d'%i: abc[2]}
+            day = {'day%d'%i: abc[0]}
+            arr_money.append(money)
+            arr_mount.append(mount)
+            arr_day.append(day)
+
+        json_money = json.dumps(arr_money, cls=DjangoJSONEncoder)
+        json_mount = json.dumps(arr_mount, cls=DjangoJSONEncoder)
+        json_day = json.dumps(arr_day, cls=DjangoJSONEncoder)
+        cursor.close()
+    except ObjectDoesNotExist:
+        pass
+    return render_to_response("bid_detail.html", {'bid': b,'json_money':json_money,'json_mount':json_mount,'json_day':json_day}, context_instance=RequestContext(request))
+
+
+def comb_detail(request, ids):
+    if ids is None:
+        return HttpResponse(u'1')
+    ids = ids.split('&')
+    bids = Bid.objects.filter(id__in=ids)
+    return render_to_response('comb_detail.html', {'bids': bids}, context_instance=RequestContext(request))
+
+
+@login_required
+def shortcut_request(request, objectid):
+    filters = UserFilter.objects.get(id=objectid).choices
+    index_parts = index_loading(None, filters, 1)
+    return render_to_response('search_result.html',
+                              {'results': index_parts.get('results'), 'dimensions': index_parts.get('dimensions'),
+                               'c_results': index_parts.get('c_result'), 'params': filters,
+                               'last_page': index_parts.get('last_page'),
+                               'page_set': index_parts.get('page_set')},
+                              context_instance=RequestContext(request))

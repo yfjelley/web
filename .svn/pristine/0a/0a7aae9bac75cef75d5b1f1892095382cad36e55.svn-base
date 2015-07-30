@@ -1,0 +1,393 @@
+{% load staticfiles %}
+{% load settingsvalue %}
+{% load url from future %}
+{% load i18n %}
+<!DOCTYPE html>
+<html xmlns:wb="http://open.weibo.com/wb">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>天天搜贷</title>
+    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=3896768758&debug=true" type="text/javascript"
+            charset="utf-8"></script>
+    <script src="/static/js/yz.js" type="text/javascript"></script>
+    <!--<script type="text/javascript" src="http://qzonestyle.gtimg.cn/qzone/openapi/qc_loader.js" data-appid="101181599" data-redirecturi="http://ddbid.com/static/html/qc_callback.html" charset="utf-8" ></script>
+-->
+</head>
+<body>
+<div id="header">
+<div class="top">
+<ul class="nav">
+    <li><a href="{% url 'searchindex' %}">首页</a></li>
+    <li><a href="{% url 'do_reminder' %}">提醒</a></li>
+    <li><a href="{% url 'myfavorite' 4 %}">收藏</a></li>
+    <li><a href="{% url 'bbsindex' %}">社区</a></li>
+</ul>
+<div class="top_right">
+{% ifequal user.id None %}
+    <ul id="top_r">
+        <li><a class="signin" href="#">登录</a>
+
+            <form action="" class="registerform">
+                <ul class="login" id="login-li">
+                    <li class="user">
+                        <input name="log_un" type="text" placeholder="用户名" class="inputxt"/>
+                    </li>
+                    <li class="pwd">
+                        <input name="log_pwd" type="password" placeholder="密码" class="inputxt"/>
+                    </li>
+                    <li class="yzm">
+                        <input name="log_code" type="text" placeholder="验证码" class="inputxt"/>
+                        <a href="#"><img id="code_pic"
+                                         onclick="this.setAttribute('src',{% url 'verifycode' %} + '?nocache='+Math.random());"
+                                         src="{% url 'verifycode' %}"/></a>
+                    </li>
+                    <li><a href="#" id="btn_login" class="btn_login">登录</a></li>
+                    <li><a href="#" class="forget fl">忘记密码</a><a href="#" class="reg fr">立即注册</a></li>
+                    <li class="quick">快捷注册：</li>
+                    <li><a href="#" id="qqLoginBtn" class="qq" onclick="test()"
+                           style="background: {% static 'image/qq.png' %}"></a>
+                        <a href="#" class="wx"></a>
+
+                        <div id="wb_connect_btn"><a href="#" onclick="test2()" class="web"></a></div>
+                    </li>
+                </ul>
+            </form>
+        </li>
+        <li>/</li>
+        <li><a class="register_li" href="#">注册</a>
+
+            <form action="" class="registerform1">
+                <ul class="login reg" id="reg-li">
+                    <li><input name="reg_un" type="text" placeholder="用户名" class="inputxt"/></li>
+                    <li><input name="reg_pwd" type="password" placeholder="密码" class="inputxt"/></li>
+                    <li><input name="reg_pwd2" type="password" placeholder="再输一次密码" class="inputxt"/></li>
+                    <li><input name="reg_email" type="text" placeholder="邮箱" class="inputxt"/></li>
+                    <li><a href="#" id="btn_reg" class="btn_login">注册</a></li>
+                </ul>
+            </form>
+        </li>
+    </ul>
+    <script type="text/javascript">
+        //未登录
+        $(".signin").click(function (e) {
+            e.preventDefault();
+            $("#login-li").toggle();
+            $("#login-li").toggleClass("hov");
+        });
+
+        $("#login-li").mouseup(function () {
+            return false
+        });
+
+        $(document).mouseup(function (e) {
+            if ($(e.target).parent("a.signin").length == 0) {
+                $(".signin").removeClass("hov");
+                $("#login-li").hide();
+            }
+        });
+
+        $(".register_li").click(function (e) {
+            e.preventDefault();
+            $("#reg-li").toggle();
+            $("#reg-li").toggleClass("hov");
+        });
+
+        $("#reg-li").mouseup(function () {
+            return false
+        });
+
+        $(document).mouseup(function (e) {
+            if ($(e.target).parent("a.register_li").length == 0) {
+                $(".register_li").removeClass("hov");
+                $("#reg-li").hide();
+            }
+        });
+
+        $(function () {
+            //$(".registerform").Validform();  //就这一行代码！;
+
+            var demo = $(".registerform").Validform({
+                tiptype: 3,
+                label: ".label",
+                showAllError: true,
+                datatype: {
+                    "zh1-6": /^[\u4E00-\u9FA5\uf900-\ufa2d]{1,6}$/
+                },
+                ajaxPost: true
+            });
+
+            //通过$.Tipmsg扩展默认提示信息;
+            //$.Tipmsg.w["zh1-6"]="请输入1到6个字符！";
+            demo.tipmsg.w["zh1-6"] = "请输入1到6个字符！";
+
+            demo.addRule([
+                {
+                    ele: ".inputxt:eq(0)",
+                    datatype: "*6-16"
+                },
+                {
+                    ele: ".inputxt:eq(1)",
+                    datatype: "*6-20"
+                },
+                {
+                    ele: ".inputxt:eq(2)",
+                    datatype: "*4-6"
+                }
+            ]);
+
+
+        });
+
+        $(function () {
+            //$(".registerform").Validform();  //就这一行代码！;
+
+            var demo = $(".registerform1").Validform({
+                tiptype: 3,
+                label: ".label",
+                showAllError: true,
+                datatype: {
+                    "zh1-6": /^[\u4E00-\u9FA5\uf900-\ufa2d]{1,6}$/
+                },
+                ajaxPost: true
+            });
+
+            //通过$.Tipmsg扩展默认提示信息;
+            //$.Tipmsg.w["zh1-6"]="请输入1到6个字符！";
+            demo.tipmsg.w["zh1-6"] = "请输入1到6个字符！";
+
+            demo.addRule([
+                {
+                    ele: ".inputxt:eq(0)",
+                    datatype: "*6-16"
+                },
+                {
+                    ele: ".inputxt:eq(1)",
+                    datatype: "*6-20"
+                },
+
+                {
+                    ele: ".inputxt:eq(2)",
+                    datatype: "e"
+                },
+                {
+                    ele: ".inputxt:eq(3)",
+                    datatype: "*7-9"
+                },
+                {
+                    ele: ".inputxt:eq(4)",
+                    datatype: "*4-6"
+                }
+            ]);
+
+        });
+
+        $('#btn_reg').on("click", function () {
+            var username = $("input[name=reg_un]").val();
+            var pwd = $("input[name=reg_pwd]").val();
+            var pwd2 = $("input[name=reg_pwd2]").val();
+            var email = $("input[name=reg_email]").val();
+            $.post("{% url 'register' %}",
+                    {
+                        un: username,
+                        pwd: pwd,
+                        pwd2: pwd2,
+                        em: email
+                    },
+                    function (data) {
+                        if (data == 5) {
+                            alert('用户已存在');
+                        }
+                        else if (data == 6) {
+                            alert('两次输入密码不一致');
+                        }
+                        else {
+                            $('#header').html(data.content_html);
+                        }
+                    }
+            );
+        });
+
+        $('#btn_login').on("click", function () {
+            var username = $("input[name=log_un]").val();
+            var pwd = $("input[name=log_pwd]").val();
+            var code = $("input[name=log_code]").val();
+            $.post("{% url 'login' %}",
+                    {
+                        un: username,
+                        pwd: pwd,
+                        code: code
+                    },
+                    function (data) {
+                        if (data == 2) {
+                            alert('用户不存在或密码错误');
+                            $("#code_pic").trigger("click")
+                        }
+                        else if (data == 3) {
+                            alert('用户被锁定');
+                            $("#code_pic").trigger("click")
+                        }
+                        else if (data == 4) {
+                            alert('验证码输入错误');
+                            $("#code_pic").trigger("click")
+                        }
+                        else {
+                            $('#header').html(data.content_html);
+                        }
+                    }
+            );
+        });
+        //未登陆结束
+    </script>
+{% else %}
+    <ul id="top_r" class="top_name">
+        <div id="logged">
+            <a id="check_log" style="display: none">1</a>
+            <li><a href="#"><img src="{{ user.userinformation.photo_url }}"/></a>{{ user.username }}
+                <ul>
+                    <li><a href="{% url 'userinformation' %}">我的资料</a></li>
+                    <li><a href="{% url 'logout' %}" onclick="logout()">退出</a></li>
+                </ul>
+            </li>
+        </div>
+    </ul>
+    <script type="text/javascript">
+        //已登陆
+        $(document).ready(function () {
+            $('#logged li').hover(function () {
+                $('ul', this).slideDown(200);
+                $(this).children('a:first').addClass("hov");
+            }, function () {
+                $('ul', this).slideUp(100);
+                $(this).children('a:first').removeClass("hov");
+            });
+        });
+        //已登陆结束
+    </script>
+{% endifequal %}
+
+</div>
+</div>
+</div>
+
+
+<script type="text/javascript">
+    window.onload = function () {
+        // alert("onload");
+        var script = document.createElement('script');
+        script.setAttribute('data-appid', '101181599');
+        script.setAttribute('data-redirecturi', 'http://ddbid.com/static/html/qc_callback.html');
+        script.setAttribute('charset', 'utf-8');
+        script.src = "http://qzonestyle.gtimg.cn/qzone/openapi/qc_loader.js";
+        document.head.appendChild(script);
+        {#        setTimeout(function() {#}
+        {#	        if (window.QC && QC.Login) {#}
+        {#                alert("qc.login");#}
+        {#	        	QC.Login();#}
+        {#	        } else {#}
+        {#                alert("timeout");#}
+        {#	        	setTimeout(arguments.callee, 16);#}
+        {#	        }#}
+        {#        }, 16);#}
+        // alert("test");
+        //test();
+    };
+    function logout() {
+        //alert("logout");
+        QC.Login.signOut();
+        WB2.logout();
+    }
+    function test() {
+        //if (QC.Login.check()){
+        //}else{
+        QC.Login({
+            btnId: "qqLoginBtn",//插入按钮的html标签id
+            size: "C_S",//按钮尺寸
+            scope: "get_user_info",//展示授权，全部可用授权可填 all
+            display: "pc"//应用场景，可选
+        }, function (reqData, opts) {
+            //alert("login success：" + reqData.nickname + reqData.figureurl_qq_1);
+            //判断登陆是否成功
+            if (QC.Login.check()) {
+                //拿取平台openid
+                QC.Login.getMe(function (openId, accessToken) {
+                    //alert("拿到的openid：" + openId + " accessToken:" + accessToken);
+                    //判断是否为首次登陆
+                    $.post("{% url 'qq_is_first' %}",
+                            {
+                                openid: openId,
+                                accessToken: accessToken,
+                                nickname: reqData.nickname,
+                                url: reqData.figureurl_qq_1
+                            },
+                            function (data) {
+                                //alert(data);
+                                window.document.write(data);
+                                //window.focus();
+                                //parent.location.reload();
+                                //location.reload("www.ddbid.com");
+                                window.document.write("www.ddbid.com");
+                                //window.location.replace();
+                            }, "html");
+                });
+            } else {
+                alert("login failed! please try again!");
+            }
+        }, function (opts) {//注销成功
+            alert('QQ登录 注销成功');
+        });
+        var im = document.getElementById("qqLoginBtn").getElementsByTagName('a')[0].getElementsByTagName('img');
+        im[0].src = "http://ddbid.com/static/image/qq.png";
+    }
+    //}
+    function test2() {
+        //alert("test2");
+        WB2.anyWhere(function (W) {
+            W.widget.connectButton({
+                id: "wb_connect_btn",
+                type: '3,2',
+                callback: {
+                    login: function (o) { //登录后的回调函数
+                        {#                    var jsondata = o;#}
+                        {#                    for(var x in jsondata){#}
+                        {#                        document.write(x+"="+jsondata[x]+"    ");#}
+                        {#                    }#}
+                        //alert("login: " + o.screen_name + o.profile_image_url);
+                        id = o.id;
+                        $.post("{% url 'wb_is_first' %}",
+                                {
+                                    wbid: id,
+                                    nickname: o.screen_name,
+                                    url: o.profile_image_url
+                                },
+                                function (data) {
+                                    //alert(data);
+                                    window.document.write(data);
+                                    //window.focus();
+                                    //parent.location.reload();
+                                    //location.reload("www.ddbid.com");
+                                    window.document.write("www.ddbid.com");
+                                    //window.location.replace();
+                                }, "html");
+                    },
+                    logout: function () { //退出后的回调函数
+                        alert('logout');
+                    }
+                }
+            });
+        });
+        change();
+
+    }
+
+    function change() {
+        //alert("wb login");
+        var im = document.getElementById("wb_connect_btn").getElementsByTagName('div')[0].getElementsByTagName('a')[0].getElementsByTagName('img');
+        //alert(im[0].src);
+        im[0].src = "http://ddbid.com/static/image/weblog.png";
+
+    }
+</script>
+
+
+</body>
+</html>
