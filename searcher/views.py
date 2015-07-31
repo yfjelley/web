@@ -665,3 +665,35 @@ def disclaimer(request):
 
 def phone_infoPage(request):
     return render_to_response('test_phone.html', context_instance=RequestContext(request))
+
+
+import urllib2, urllib, hashlib, random
+def send_smscode(request):
+    print "xxxxxxx"
+    m = hashlib.md5()
+    m.update('cs20150727')
+    random_code = random.randint(100000, 999999)
+    content = "您的验证码是：%s，有效期为五分钟。如非本人操作，可以不用理会"%random_code
+    data = """
+              <Group Login_Name ="%s" Login_Pwd="%s" OpKind="0" InterFaceID="" SerType="xxxx">
+              <E_Time></E_Time>
+              <Item>
+              <Task>
+              <Recive_Phone_Number>15721448969</Recive_Phone_Number>
+              <Content><![CDATA[%s]]></Content>
+              <Search_ID>111</Search_ID>
+              </Task>
+              </Item>
+              </Group>
+           """ % ("cs20150727",m.hexdigest().upper(),content.decode("utf-8").encode("GBK"))
+           
+    cookies = urllib2.HTTPCookieProcessor()
+    opener = urllib2.build_opener(cookies)
+    print "ffffff"
+    request = urllib2.Request(
+                               url = r'http://userinterface.vcomcn.com/Opration.aspx',
+                               headers= {'Content-Type':'text/xml'},
+                               data = data
+                              )
+
+

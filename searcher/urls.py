@@ -43,3 +43,9 @@ urlpatterns += patterns('searcher.viewss',
     url(r'^send_message/$',  'send_message', name='send_message'),
     url(r'^wx_bid_detail/(?P<objectid>\d+)/$',  'wx_bid_detail', name='wx_bid_detail'),
 )
+
+
+urlpatterns += patterns('searcher.views',
+   
+    url(r'^send_smscode/$',  'send_smscode', name='send_smscode'),
+        )
