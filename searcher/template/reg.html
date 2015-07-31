@@ -46,9 +46,13 @@
             <form class="registerform" action="{% url 'register' %}" method="post" name="form1">
                 <ul>
                     <li>
-                        <label class="label"> 用户名：<span class="need">*</span></label>
+                        <label class="label"> 手机号：<span class="need">*</span></label>
                         {{ form.username }}
 {#                        <input type="button" value="验证用户名是否存在？" name="un_valid" onclick="check_valid()">#}
+                    </li>
+                    <li>
+                        <label class="label"> 短信验证码：<span class="need">*</span></label>
+                        {{ form.smscode }}
                     </li>
 
                     <li>
@@ -58,10 +62,6 @@
                     <li>
                         <label class="label">确认密码：<span class="need">*</span></label>
                         {{ form.password2 }}
-                    </li>
-                    <li>
-                        <label class="label"> 电子邮箱：<span class="need">*</span></label>
-                        {{ form.email }}
                     </li>
                     {#                    <li>#}
                     {#                        <label class="label"> 昵称：<span class="need">*</span></label>#}

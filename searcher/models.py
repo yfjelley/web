@@ -182,6 +182,7 @@ class UserInformation(models.Model):
     birthday = models.DateField('生日', blank=True, null=True)
     cellphone = models.CharField('手机号码', max_length=11, blank=True, null=True)
     email = models.EmailField('邮箱地址', blank=True, null=True)
+    smscode = models.CharField('短信验证码', max_length=20, blank=True, null=True)
     city = models.CharField('居住城市', max_length=255,blank=True, null=True)
     address = models.CharField('居住地址', max_length=255, blank=True, null=True)
     education = models.CharField('学历', max_length=1, choices=ED_CHOICES, null=True, default=0)

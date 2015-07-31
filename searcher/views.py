@@ -266,7 +266,7 @@ def register(request):
             username = cd['username']
             pwd1 = cd['password']
             pwd2 = cd['password2']
-            em = cd['email']
+            em = cd['smscode']
             # nickname = cd['nickname']
             code = cd['vcode']
             ca = Captcha(request)
