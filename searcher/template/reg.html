@@ -196,9 +196,9 @@ $(function () {
 
 $(function(){
 $("#send_smscode").click(function(){
-	var num = $("#phoneNum").val();
-	/*alert(num);*/
-    $.post("/send_smscode/", function(){alert("fasongwang")});
+	var username = $("input[name=username]").val();
+	alert(username);
+	$.post("/send_smscode/", {"phoneNum":username}, function(){});
 })
 })
 </script>

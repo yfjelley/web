@@ -669,7 +669,10 @@ def phone_infoPage(request):
 
 import urllib2, urllib, hashlib, random
 def send_smscode(request):
-    print "xxxxxxx"
+    print "xxxx"
+    phoneNum = request.POST.get('phoneNum', '')
+    print phoneNum
+    print type(phoneNum)
     m = hashlib.md5()
     m.update('cs20150727')
     random_code = random.randint(100000, 999999)
@@ -679,14 +682,14 @@ def send_smscode(request):
               <E_Time></E_Time>
               <Item>
               <Task>
-              <Recive_Phone_Number>15721448969</Recive_Phone_Number>
+              <Recive_Phone_Number>%d</Recive_Phone_Number>
               <Content><![CDATA[%s]]></Content>
               <Search_ID>111</Search_ID>
               </Task>
               </Item>
               </Group>
-           """ % ("cs20150727",m.hexdigest().upper(),content.decode("utf-8").encode("GBK"))
-           
+           """ % ("cs20150727", m.hexdigest().upper(), int(phoneNum), content.decode("utf-8").encode("GBK"))
+    print phoneNum       
     cookies = urllib2.HTTPCookieProcessor()
     opener = urllib2.build_opener(cookies)
     print "ffffff"
@@ -696,4 +699,4 @@ def send_smscode(request):
                                data = data
                               )
 
-
+    print opener.open(request).read()
