@@ -39,6 +39,7 @@ storage = FileSystemStorage(
     base_url='/static/upload/'
 )
 
+dict_code = {}
 
 def index(request):
     hotspots = WeekHotSpot.objects.filter(status=1).order_by('?')
@@ -238,6 +239,24 @@ def checkvcode(request):
         response['Content-Type'] = "application/json"
         vcode = request.POST.get('param', None)
         if _code.lower() == vcode.lower():
+            response.write('{"info": "","status": "y"}')
+            return response
+        else:
+            response.write('{"info": "验证码错误","status": "n"}')
+            return response
+
+def checksmscode(request):
+    if_smscode = request.POST.get('name', None)
+    print dict_code
+    _code = dict_code['smscode']
+    print _code
+    if if_smscode:
+        response = HttpResponse()
+        response['Content-Type'] = "application/json"
+        smscode = request.POST.get('param', None)
+        print "smscode type %s %s"%(type(smscode), smscode)
+        print "_code type %s %s"%(type(_code), _code)
+        if _code  == int(smscode):
             response.write('{"info": "","status": "y"}')
             return response
         else:
@@ -675,7 +694,9 @@ def send_smscode(request):
     print type(phoneNum)
     m = hashlib.md5()
     m.update('cs20150727')
-    random_code = random.randint(100000, 999999)
+    random_code = random.randint(1000, 9999)
+    dict_code['smscode'] = random_code
+    print "the random_code %s" % dict_code
     content = "您的验证码是：%s，有效期为五分钟。如非本人操作，可以不用理会"%random_code
     data = """
               <Group Login_Name ="%s" Login_Pwd="%s" OpKind="0" InterFaceID="" SerType="xxxx">
@@ -689,10 +710,9 @@ def send_smscode(request):
               </Item>
               </Group>
            """ % ("cs20150727", m.hexdigest().upper(), int(phoneNum), content.decode("utf-8").encode("GBK"))
-    print phoneNum       
+    
     cookies = urllib2.HTTPCookieProcessor()
     opener = urllib2.build_opener(cookies)
-    print "ffffff"
     request = urllib2.Request(
                                url = r'http://userinterface.vcomcn.com/Opration.aspx',
                                headers= {'Content-Type':'text/xml'},

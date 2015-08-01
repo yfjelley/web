@@ -138,7 +138,8 @@ class RegisterForm(forms.Form):
                 'placeholder': u"短信验证码",
                 'type': 'text',
                 'name': 'smscode',
-                'class': 'inputxt'
+                'class': 'inputxt',
+                'ajaxurl': '/checksmscode/'
             }
         ),
     )

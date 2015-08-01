@@ -48,7 +48,7 @@
                     <li>
                         <label class="label"> 手机号：<span class="need">*</span></label>
                         {{ form.username }}
-{#                        <input type="button" id="phoneNum" value="验证用户名是否存在？" name="un_valid" onclick="check_valid()">#}
+{#                        <input type="button" value="验证用户名是否存在？" name="un_valid" onclick="check_valid()">#}
                     </li>
                     <li>
                         <label class="label"> 短信验证码：<span class="need">*</span></label>
@@ -111,17 +111,18 @@ $(function () {
             {% endfor %}
         {% endif %}
 
-        {% if form.password2.errors %}
+        {% if form.smscode.errors %}
+            {% for error in form.smscode.errors %}
+                alert('{{ error }}');
+            {% endfor %}
+        {% endif %}
+       
+	   	{% if form.password2.errors %}
             {% for error in form.password2.errors %}
                 alert('{{ error }}');
             {% endfor %}
         {% endif %}
 
-        {% if form.email.errors %}
-            {% for error in form.email.errors %}
-                alert('{{ error }}');
-            {% endfor %}
-        {% endif %}
 
         {% if form.vcode.errors %}
             {% for error in form.vcode.errors %}
@@ -152,6 +153,10 @@ $(function () {
                 datatype: "*1-200"
             },
             {
+                ele: "#id_smscode",
+                datatype: "n4"
+            },
+            {
                 ele: "#id_password",
                 datatype: "*6-20"
             },
@@ -159,10 +164,6 @@ $(function () {
                 ele: "#id_password2",
                 datatype: "*6-20",
                 recheck: "password"
-            },
-            {
-                ele: "#id_email",
-                datatype: "e"
             },
             {
                 ele: "#id_vcode",
