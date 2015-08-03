@@ -40,7 +40,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
-    #'django.contrib.sessions',
+    'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'bootstrap_toolkit',
@@ -79,11 +79,11 @@ WSGI_APPLICATION = 'ddbid.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': 'ddbid2015.mysql.rds.aliyuncs.com',
+        'HOST': '127.0.0.1',
         'PORT': '3306',
-        'NAME': 'ddbid_db',
-        'USER': 'scrapy',
-        'PASSWORD': 'ddbid_mysql1243',
+        'NAME': 'cqt_db',
+        'USER': 'root',
+        'PASSWORD': '123',
     }
 
 }

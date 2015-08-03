@@ -198,7 +198,6 @@ $(function () {
 $(function(){
 $("#send_smscode").click(function(){
 	var username = $("input[name=username]").val();
-	alert(username);
 	$.post("/send_smscode/", {"phoneNum":username}, function(){});
 })
 })
