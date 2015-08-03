@@ -21,6 +21,7 @@ urlpatterns = patterns('searcher.views',
     url(r'^shortcut_request/(?P<objectid>\d+)/$',  'shortcut_request', name='shortcut_request'),
     url(r'getverifycode/$', 'verifycode', name='verifycode'),
     url(r'forgetpw/$', 'forgetpw', name='forgetpw'),
+
     # url(r'^other_page_reg/$',  'other_page_reg', name='other_page_reg'),
     # url(r'^other_reg/$',  'other_reg', name='other_reg'),
     url(r'^about_us/$',  'about_us', name='about_us'),

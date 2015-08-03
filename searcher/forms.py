@@ -423,15 +423,58 @@ class UserReminderForm(forms.Form):
 class ForgetPW(forms.Form):
     username = forms.CharField(
         required=True,
-        label=u"用户名",
-        error_messages={'required': '请输入用户名'},
+        label=u"手机号",
+        error_messages={'required': '请输入手机号'},
         widget=forms.TextInput(
             attrs={
-                'placeholder': u"用户名",
+                'placeholder': u"手机号",
                 'type': 'text',
                 'name': 'name',
                 'class': 'inputxt'
             }
         ),
     )
+
+    smscode = forms.CharField(
+        required=True,
+        label=u"短信验证码",
+        error_messages={'required': u'请输入短信验证码'},
+        widget=forms.TextInput(
+            attrs={
+                'placeholder': u"短信验证码",
+                'type': 'text',
+                'name': 'smscode',
+                'class': 'inputxt',
+                'ajaxurl': '/checksmscode/'
+            }
+        ),
+    )
+
+class ModfiyPW(forms.Form):
+     password = forms.CharField(
+        required=True,
+        label=u"密码",
+        error_messages={'required': u'请输入xin密码'},
+        widget=forms.PasswordInput(
+            attrs={
+                'placeholder': u"密码",
+                'type': 'password',
+                'name': 'userpassword',
+                'class': 'inputxt'
+            }
+        ),
+     )
+     password2 = forms.CharField(
+        required=True,
+        label=u"确认密码",
+        error_messages={'required': u'再次输入xin密码'},
+        widget=forms.PasswordInput(
+            attrs={
+                'placeholder': u"确认密码",
+                'type': 'password',
+                'name': 'userpassword2',
+                'class': 'inputxt'
+            }
+        ),
+     )
 

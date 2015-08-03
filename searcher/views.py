@@ -24,7 +24,7 @@ from django.template.loader import get_template
 from django.core.files.storage import FileSystemStorage
 from ddbid.settings import EMAIL_HOST_USER, EMAIL_HOST_PASSWORD
 
-from searcher.forms import ContactForm, SearchForm, LoginForm, UserInformationForm, RegisterForm, ForgetPW
+from searcher.forms import ContactForm, SearchForm, LoginForm, UserInformationForm, RegisterForm, ForgetPW, ModfiyPW
 from searcher.inner_views import index_loading, data_filter, result_sort, get_pageset, get_user_filter, user_auth, \
     refresh_header
 from searcher.models import Bid, UserFavorite, Platform, UserInformation, DimensionChoice, UserFilter, UserReminder, \
@@ -194,23 +194,17 @@ def forgetpw(request):
         if form.is_valid():
             cd = form.clean()
             username = cd['username']
+            _code = dict_code.get('smscode')
+            smscode = cd['smscode']
             user = User.objects.get(username=username)
             pw = user.userinformation.abcdefg
-            context = u'密码为' + str(pw)
-            try:
-                send_mail(
-                    subject=u'密码找回',
-                    message=context,
-                    from_email=EMAIL_HOST_USER,  # 发件邮箱
-                    recipient_list=[user.userinformation.email],
-                    fail_silently=False,
-                    auth_user=EMAIL_HOST_USER,  # SMTP服务器的认证用户名
-                    auth_password=EMAIL_HOST_PASSWORD,  # SMTP服务器的认证用户密码
-                    connection=None
-                )
-                message = u'邮件已发送'
-            except:
-                message = u'邮件发送失败'
+            print type(pw), type(smscode), type(_code)
+
+            if pw is not None and _code == int(smscode):
+                    return render_to_response('modfiy_password.html', {'username': username, 'password': pw},
+                                      context_instance=RequestContext(request))
+            else:
+                message = u'手机号或者验证码错误'
 
             return render_to_response('forget_password.html', {'message': message},
                                       context_instance=RequestContext(request))
@@ -688,10 +682,7 @@ def phone_infoPage(request):
 
 import urllib2, urllib, hashlib, random
 def send_smscode(request):
-    print "xxxx"
     phoneNum = request.POST.get('phoneNum', '')
-    print phoneNum
-    print type(phoneNum)
     m = hashlib.md5()
     m.update('cs20150727')
     random_code = random.randint(1000, 9999)
