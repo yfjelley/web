@@ -31,11 +31,11 @@ class SearchForm(forms.Form):
 class LoginForm(forms.Form):
     username = forms.CharField(
         required=True,
-        label=u"用户名",
-        error_messages={'required': '请输入用户名'},
+        label=u"手机号",
+        error_messages={'required': '请输入手机号'},
         widget=forms.TextInput(
             attrs={
-                'placeholder': u"用户名",
+                'placeholder': u"手机号",
                 'type': 'text',
                 'name': 'name',
                 'class': 'inputxt'
