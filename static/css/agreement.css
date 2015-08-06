@@ -1,0 +1,31 @@
+#div1{
+	border:1px solid #000000;
+	width:760px;
+	height:500px;
+	background-color:#FFFFFF;
+	margin:0 auto;
+}
+
+#div2{
+	border:1px solid #CCCC33;
+	width:600px;
+	height:400px;
+	margin:0 auto;
+}
+
+#tab1{
+	border:1px solid #999999;
+	width:700px;
+	height:450px;
+	margin:0 auto;	
+}
+
+#div1 p{
+	font-size:32px;
+	
+}
+
+textarea{
+width:590px;
+height:200px;
+}

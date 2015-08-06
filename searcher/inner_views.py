@@ -16,16 +16,13 @@ from searcher.models import Bid, UserFilter, DimensionChoice
 __author__ = 'pony'
 
 
-def user_auth(request, username, password, code):
+def user_auth(request, username, password):
     user = auth.authenticate(username=username, password=password)
-    _code = code
     ca = Captcha(request)
     if user is None:
         a = 2
     elif not user.is_active:
         a = 3
-    elif _code is not None and not ca.check(_code):
-        a = 4
     else:
         auth.login(request, user)
         a = 1

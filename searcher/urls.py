@@ -3,6 +3,7 @@ from django.conf.urls import patterns, url
 urlpatterns = patterns('searcher.views',
     url(r'^contact/$', 'contact', name='contact'),
     url(r'^$', 'index', name='searchindex'),
+     url(r'^index1$', 'index1', name='index1'),
     url(r'^login/$',  'login', name='login'),
     url(r'^logout/$',  'logout', name='logout'),
     url(r'^register/$',  'register', name='register'),
@@ -36,15 +37,10 @@ urlpatterns = patterns('searcher.views',
 urlpatterns += patterns('searcher.viewss',
     url(r'^qq_is_first/$',  'qq_is_first', name='qq_is_first'),
     url(r'^wb_is_first/$',  'wb_is_first', name='wb_is_first'),
-    url(r'^wx_is_first/$',  'wx_is_first', name='wx_is_first'),
-    url(r'^wxcheck/$',  'wxcheck', name='wxcheck'),
-    url(r'^wx_binding/$',  'wx_binding', name='wx_binding'),
-    url(r'^wx_register/$',  'wx_register', name='wx_register'),
     url(r'^ch_access_token/$',  'ch_access_token', name='ch_access_token'),
     url(r'^test_thread/$',  'remind_thread', name='remind_thread'),
     url(r'^test_thread_on/$',  'test_thread_on', name='test_thread_on'),
     url(r'^send_message/$',  'send_message', name='send_message'),
-    url(r'^wx_bid_detail/(?P<objectid>\d+)/$',  'wx_bid_detail', name='wx_bid_detail'),
 )
 
 

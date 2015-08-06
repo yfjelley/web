@@ -1,0 +1,22 @@
+#div1{
+	border:5px solid #000000;
+	height:400px;
+	width:600px;
+	margin:0 auto;
+	background-color:#FFFFFF;
+}
+
+#tab1{
+	border:1px solid #CC6633;
+	height:300px;
+	width:450px;
+	margin:0 auto;
+	margin-top:30px;
+}
+#tab1 tr td input{
+	height:30px;
+}
+
+#tab1 tr[align]{
+	font-size:32px;
+}

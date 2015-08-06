@@ -152,10 +152,10 @@ def contact(request):
 
 
 def login(request):
+    print "xxxxx"
     if request.method == 'POST':
         username = request.REQUEST.get('log_un', None)
         pwd = request.REQUEST.get('log_pwd', None)
-        code = request.REQUEST.get('log_code', None)
         if username is None:
             form = LoginForm(request.POST)
             print(form)
@@ -164,60 +164,27 @@ def login(request):
                 print(cd)
                 username = cd['username']
                 pwd = cd['password']
-                code = cd['vcode']
-                i = user_auth(request, username, pwd, code)
-                if i == 1:
-                    a = request.REQUEST.get('next', None)
-                    if a:
-                        return HttpResponseRedirect(a)
-                    else:
-                        return HttpResponseRedirect(reverse('searchindex'))
-                else:
-                    form.valiatetype(i)
-                    return render_to_response('login.html', {'form': form, },
-                                              context_instance=RequestContext(request))
-            else:
-                return render_to_response('login.html', {'form': form, },
+                user = auth.authenticate(username=username, password=pwd)
+                if user is None:
+                    message = u"login fail!"
+                    print message
+                    return render_to_response('success_login.html', {'message': message, },
                                           context_instance=RequestContext(request))
+                else:
+                    auth.login(request, user)
+                    return HttpResponseRedirect(reverse('searchindex'))
 
-        return refresh_header(request, user_auth(request, username, pwd, code))
+            else:
+                message = u"login fail!"
+                print message
+                return render_to_response('success_login.html', {'message': message, },
+                                          context_instance=RequestContext(request))
     else:
         form = LoginForm()
-        next = request.GET.get('next', None)
-        return render_to_response('login.html', {'form': form, 'next': next},
-                                  context_instance=RequestContext(request))
-"""def forgetpw(request):
-    if request.method == 'POST':
-        form = ForgetPW(request.POST)
-        if form.is_valid():
-            cd = form.clean()
-            username = cd['username']
-            user = User.objects.get(username=username)
-            pw = user.userinformation.abcdefg
-            context = u'密码为' + str(pw)
-            try:
-                send_mail(
-                    subject=u'密码找回',
-                    message=context,
-                    from_email=EMAIL_HOST_USER,  # 发件邮箱
-                    recipient_list=[user.userinformation.email],
-                    fail_silently=False,
-                    auth_user=EMAIL_HOST_USER,  # SMTP服务器的认证用户名
-                    auth_password=EMAIL_HOST_PASSWORD,  # SMTP服务器的认证用户密码
-                    connection=None
-                )
-                message = u'邮件已发送'
-            except:
-                message = u'邮件发送失败'
+        print LoginForm
 
-            return render_to_response('forget_password.html', {'message': message},
-                                      context_instance=RequestContext(request))
-        else:
-            return render_to_response('forget_password.html', {'form': form}, context_instance=RequestContext(request))
-    else:
-        form = ForgetPW()
-        return render_to_response('forget_password.html', {'form': form}, context_instance=RequestContext(request))
-"""
+        return render_to_response('login.html', {'form': form},
+                                  context_instance=RequestContext(request))
 
 def forgetpw(request):
     if request.method == 'POST':
@@ -237,8 +204,9 @@ def forgetpw(request):
 
                 auth.login(request, user)
                 message = u'success login!'
-                return render_to_response('success_login.html',{"message":message},
-                                      context_instance=RequestContext(request))
+                return HttpResponseRedirect(reverse('searchindex'))
+                #return render_to_response('success_login.html',{"message":message},
+                #                     context_instance=RequestContext(request))
 
             else:
                 message = u'手机号或者验证码错误'
@@ -343,7 +311,7 @@ def register(request):
                 form.valiatetype(4)
                 flag = 1
             if flag == 1:
-                return render_to_response("reg.html", {'form': form}, context_instance=RequestContext(request))
+                return render_to_response("signup.html", {'form': form}, context_instance=RequestContext(request))
             elif pwd1 == pwd2 and f:
                 new_user = User.objects.create_user(username=username, password=pwd1)
                 new_user.save()
@@ -354,12 +322,12 @@ def register(request):
                 auth.login(request, user)
                 # return refresh_header(request, user_auth(request, username, pwd1, None))
                 #直接定向到首页
-                return HttpResponseRedirect(reverse('searchindex'))
+                return HttpResponseRedirect(reverse('index1'))
         else:
-            return render_to_response("reg.html", {'form': form}, context_instance=RequestContext(request))
+            return render_to_response("signup.html", {'form': form}, context_instance=RequestContext(request))
     else:
         form = RegisterForm()
-        return render_to_response("reg.html", {'form': form}, context_instance=RequestContext(request))
+        return render_to_response("signup.html", {'form': form}, context_instance=RequestContext(request))
 
 
 @login_required
@@ -758,4 +726,5 @@ def send_smscode(request):
                               )
 
     print opener.open(request).read()
-
+def index1(request):
+    return render_to_response('index.html',{}, context_instance=RequestContext(request))

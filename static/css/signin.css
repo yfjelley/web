@@ -1,0 +1,36 @@
+/*body{
+	width:570px;
+	background-color:#FFFFFF;
+	border:1px solid #000000;
+	height:400px;
+	margin:0 auto;
+}
+*/
+#div1 iframe{
+margin-left:200px;
+}
+
+
+#tab1{
+	margin:0 auto;
+	margin-top:-500px;
+	background:#FFFFFF;
+
+}
+
+#tab1 tr{
+	width:500px;
+	height:30px;
+	font-size:12px;
+}
+
+#tab1 tr[align]{
+	font-size:32px;
+}
+
+#tab1 input[type="text"]{		/*ƥ��input��ǩ����Ϊtext*/
+
+	width:500px;
+	height:30px;
+	margin:0 auto;
+}

@@ -1,0 +1,49 @@
+/*body{
+	margin:0 auto;
+	border:1px solid #000000;
+	width:570px;
+	background-color:#FFFFFF;
+	height:500px;
+}*/
+body{
+	background-color:#eeeef0;
+	width:1140px;
+	padding:15px;
+}
+
+#div1 iframe{
+margin-left:200px;
+
+}
+
+#sub{
+margin-left:480px;
+}
+
+
+#div2{
+	position:absolute;
+	z-index:1;	
+	margin:0 auto;
+	width:600px;
+	height:500px;
+	background:#FFFFFF;
+	margin-top:-600px;
+}
+.tab1{
+	
+	font-size:12px;
+	margin-top:30px;
+	
+}
+.tab1 tr td input{
+	height:30px;
+}
+
+.tab1 tr[align]{
+	font-size:32px;
+}
+
+.tab1 tr td{
+margin:30px;
+}
