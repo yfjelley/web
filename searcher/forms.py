@@ -49,7 +49,7 @@ class LoginForm(forms.Form):
         widget=forms.PasswordInput(
             attrs={
                 'placeholder': u"密码",
-                'type': 'password',
+                'type': 'text',
                 'name': 'userpassword',
                 'class': 'inputxt'
             }

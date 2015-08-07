@@ -1,57 +1,65 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-<title>��������</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>忘记密码</title>
 <link rel="stylesheet" href="css/forgetpwd.css" />
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/forgetpwd.js"></script>
 </head>
-
 <body>
-<div id="div1">
-<table id="tab1">
-	<tr align="center">
-		<td>
-			��������
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<hr />
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<div align="center">������ע��ʱ��д���ֻ��Ż�ȡ��֤���¼</div>
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<hr />
-		</td>
-	</tr>
-	<tr>
-		<td>
-			�ֻ���
-		</td>
-		<td>
-		<div style="margin-left:-280px;">
-			������֤
-		</div>
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<input type="text" />
-			<input type="text" />
-			<input type="button" value="������֤��" />
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<input style="width:450px;" type="button" value="��¼"/>
-		</td>
-	</tr>
-</table>
+<div id="main">
+  <iframe name="aa" src="index2.html"  scrolling="no" frameborder="0" marginwidth="0" marginheight="0" width="1140px" height="700px" ></iframe>
+</div>
+<div style=" position:absolute; z-index:2; color:#CCCCCC; margin-top:-400px; margin-left:945px; font-size:12px; ">已发送,</div>
+<div id="div3" style=" position:absolute; z-index:2; color:#CCCCCC; margin-top:-400px; margin-left:988px; font-size:12px; "></div>
+<div id="div4" style=" position:absolute; z-index:2; color:#CCCCCC; margin-top:-400px; margin-left:1000px; font-size:12px; ">秒后重发</div>
+<div id="sub">
+  <div id="div1">
+    <table id="tab1">
+	
+      <table id="tab2">
+        <tr align="center">
+          <td> 忘记密码 </td>
+        </tr>
+      </table>
+	  
+      <table id="tab3">
+        <tr>
+          <td><hr />
+          </td>
+        </tr>
+        <tr>
+          <td><div align="center">请输入注册时填写的手机号获取验证码输入</div></td>
+        </tr>
+        <tr>
+          <td><hr />
+          </td>
+        </tr>
+      </table>
+      
+	  <table id="tab4">
+        <tr>
+          <td> 手机号 </td>
+          <td><div style="margin-left:-106px;"> 短信验证 </div></td>
+        </tr>
+        <tr>
+          <td><input type="text" />
+            <input type="text" style="margin-left:140px; width:100px;"/>
+            <input type="button" id="rulesubmit" style="position:absolute;height:30px; margin-left:10px; width:100px;background-color:#4a3c70;margin-top:-4px;" value="发送验证码" />
+          </td>
+        </tr>
+      </table>
+      
+	  <table id="tab5">
+        <tr>
+          <td><input style="width:510px; height:30px;" type="button" value="登录"/>
+          </td>
+        </tr>
+      </table>
+	  
+    </table>
+  </div>
 </div>
 </body>
 </html>

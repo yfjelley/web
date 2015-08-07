@@ -1,19 +1,26 @@
 #div1{
-	background-color:#4a3c70;
+
+	background-color:#372c3a;
 	height:70px;
 	width:1140px;
-	margin:0 auto;
+	
+}
+#div2{
+margin-left:100px;
 }
 ul{
 list-style:none;
 color:#FFFFFF;
 float:left;
+padding:0 10px;
+
 }
 .ul1{
-margin-left:120px;
-font-size:16px;
+margin-left:150px;
+font-size:18px;
 }
 .ul2{
+
 font-size:12px;
 }
 .ul2 input{
@@ -22,16 +29,5 @@ font-size:12px;
 }
 .ul2 ul[type="disc"]{
 	margin-top:10px;
-}
-
-#main{
-	width:1140px;
-	border:1px solid #000;
-	-moz-columns:95px 12;
-	-webkit-columns:95px 12;
-	columns:95px 12;
-	height:500px;
-	margin:0 auto;
-	background-color:#eeeef0;
 }
 

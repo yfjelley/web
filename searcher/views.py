@@ -274,22 +274,25 @@ def checksmscode(request):
 
 
 def register(request):
+
     if request.method == 'POST':
         response = HttpResponse()
         response['Content-Type'] = "text/javascript"
-        u_ajax = request.POST.get('name', None)
+        print request
+        u_ajax = request.POST.get('username', None)
+        print "u_ajax:%s"%u_ajax
         if u_ajax:
             response['Content-Type'] = "application/json"
-            r_u = request.POST.get('param', None)
-            u = User.objects.filter(username=r_u)
+
+            u = User.objects.filter(username=u_ajax)
             if u.exists():
-                response.write('{"info": "用户已存在","status": "n"}')  # 用户已存在
+                response.write('{"info": u"username is exist","status": "n"}')  # 用户已存在
                 return response
-            else:
-                response.write('{"info": "用户可以使用","status": "y"}')
-                return response
+
         form = RegisterForm(request.POST)
+        print "form is :%s"%form
         if form.is_valid():
+            print "form is valid"
             cd = form.cleaned_data
             username = cd['username']
             pwd1 = cd['password']
@@ -726,5 +729,5 @@ def send_smscode(request):
                               )
 
     print opener.open(request).read()
-def index1(request):
+def index(request):
     return render_to_response('index.html',{}, context_instance=RequestContext(request))

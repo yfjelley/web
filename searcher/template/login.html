@@ -4,54 +4,67 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>葡萄藤金福登录</title>
-<link href="/static/css/signin.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="/static/css/signin.css" />
 </head>
 <body>
 <div id="div1">
-<iframe src="{% url "index1"  %}" style="" scrolling="no" frameborder="0" width="1140px" height="600px" ></iframe>
+<iframe src="{% url 'index' %}" style="" scrolling="no" frameborder="0" width="1140px" height="600px" ></iframe>
 </div>
-<div>
+<div id="sub">
+<div id="div2">
   <form class="registerform" action="/login/" method="post">
           {% csrf_token %}
   <table id="tab1">
+  <table id="tab4">
     <tr align="center">
       <td>登录</td>
     </tr>
     <tr>
       <td><hr /></td>
     </tr>
+	</table>
+	
+	<table id="tab5">
     <tr>
       <td>手机号</td>
     </tr>
     <tr>
       <td> {{ form.username }}</td>
     </tr>
+	</table>
+	
+	<table id="tab2">
     <tr>
       <td>密码</td>
     </tr>
     <tr>
       <td>{{ form.password }}</td>
+    </tr> 
+	</table>
+	
+	<table id="tab3">
+	  <tr>
+      <td><hr /></td>
+    </tr>
+    <tr>
+      <td><div style="margin-left:45px;"><input type="checkbox" />下次自动登录</div></td>
+	  <td><div style=" margin-left:-65px;">忘记密码</div></td>
     </tr>
     <tr>
       <td><hr /></td>
     </tr>
+	</table>
+	
     <tr>
-      <td><input type="checkbox" />下次自动登录</td>
-	  <td><div style="margin-left:-50px;">忘记密码</div></td>
+      <td> <input type="submit" class="login_dl" value="登录" style=" margin-top:20px; margin-left:45px;width:520px; height:30px;"></td>
     </tr>
     <tr>
-      <td><hr /></td>
-    </tr>
-    <tr>
-      <td> <input type="submit" class="login_dl" value="登录"></td>
-    </tr>
-    <tr>
-      <td>第三方登录</td>
+      <td><div style="margin-top:10px; margin-left:430px;font-size:12px;">没有葡萄藤金福账号,<a>注册</a></div></td>
     </tr>
   </table>
     </form>
 </div>
-
+</div>
 
 </body>
 </html>

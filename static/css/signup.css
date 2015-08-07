@@ -8,7 +8,8 @@
 body{
 	background-color:#eeeef0;
 	width:1140px;
-	padding:15px;
+	
+	margin:0px;
 }
 
 #div1 iframe{
@@ -26,7 +27,7 @@ margin-left:480px;
 	z-index:1;	
 	margin:0 auto;
 	width:600px;
-	height:500px;
+	height:550px;
 	background:#FFFFFF;
 	margin-top:-600px;
 }
@@ -34,7 +35,6 @@ margin-left:480px;
 	
 	font-size:12px;
 	margin-top:30px;
-	
 }
 .tab1 tr td input{
 	height:30px;
@@ -46,4 +46,57 @@ margin-left:480px;
 
 .tab1 tr td{
 margin:30px;
+}
+
+#tab2{
+font-size:12px;
+font-style:normal;
+	margin:20px 0;
+	margin-left:45px;
+}
+#tab2 hr{
+margin-left:5px;
+width:505px;
+}
+#tab2 tr[align]{
+	font-size:32px;
+}
+#tab3{
+font-size:12px;
+margin:20px 0;
+	margin-left:45px;
+}
+
+#tab3 input[type="text"]{		
+	width:505px;
+	height:30px;
+	margin:0 auto;
+}
+
+#tab4{
+margin:20px 0;
+margin-left:45px;
+font-size:12px;
+}
+#tab4 input[type="text"]{		
+	width:165px;
+	height:30px;
+	margin:0 auto;
+}
+#tab5{
+margin:20px 0;
+margin-left:45px;
+font-size:12px;
+}
+#tab5 input[type="text"]{		
+	width:150px;
+	height:30px;
+	margin:0 auto;
+}
+#tab6{
+	font-size:12px;
+}
+#tab6 hr{
+margin-left:46px;
+width:505px;
 }

@@ -1,0 +1,3263 @@
+[06/Aug/2015 13:52:19] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 13:52:19] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 13:52:19] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 13:52:19] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 13:52:26] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 13:52:27] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 13:52:27] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 13:52:27] "GET / HTTP/1.1" 200 843
+[06/Aug/2015 13:52:27] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 13:52:27] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 13:52:28] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 13:52:29] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 13:52:29] "GET / HTTP/1.1" 200 843
+[06/Aug/2015 13:52:29] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 13:52:31] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 13:52:32] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 13:52:33] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 13:52:33] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 13:52:34] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 13:52:34] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 13:52:43] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 13:52:43] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 13:52:43] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 13:52:43] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 13:52:50] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 13:52:50] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 13:52:52] "GET /register/ HTTP/1.1" 200 1878
+[06/Aug/2015 13:52:52] "GET /static/css/signup.css HTTP/1.1" 304 0
+[06/Aug/2015 13:52:52] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 13:53:02] "GET / HTTP/1.1" 200 843
+[06/Aug/2015 13:53:12] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 13:53:12] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 13:53:12] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 13:53:13] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 13:53:14] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 13:53:14] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 13:53:14] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 13:53:14] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 13:53:14] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 13:53:14] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 13:53:14] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 13:53:15] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 13:53:22] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 13:54:10] "GET /login HTTP/1.1" 301 0
+[06/Aug/2015 13:54:10] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 13:54:11] "GET /static/css/signin.css HTTP/1.1" 200 464
+[06/Aug/2015 13:54:11] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 13:54:11] "GET /static/css/index.css HTTP/1.1" 200 510
+[06/Aug/2015 13:55:25] "GET / HTTP/1.1" 200 843
+[06/Aug/2015 13:55:26] "GET / HTTP/1.1" 200 843
+[06/Aug/2015 13:55:27] "GET / HTTP/1.1" 200 843
+[06/Aug/2015 13:55:28] "GET / HTTP/1.1" 200 843
+[06/Aug/2015 14:00:31] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 14:00:32] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 14:00:32] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 14:00:32] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 14:02:08] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 14:02:08] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 14:02:08] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 14:02:08] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 14:02:10] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 14:02:10] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 14:02:10] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 14:02:10] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 14:02:22] "GET /register/ HTTP/1.1" 200 1878
+[06/Aug/2015 14:02:22] "GET /static/css/signup.css HTTP/1.1" 304 0
+[06/Aug/2015 14:02:22] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 14:02:38] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 14:02:38] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 14:03:14] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 14:03:14] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 14:03:14] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 14:03:14] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 14:04:38] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 14:04:38] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 14:04:38] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 14:04:38] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 14:17:24] "GET /register/ HTTP/1.1" 200 1878
+[06/Aug/2015 14:17:24] "GET /static/css/signup.css HTTP/1.1" 304 0
+[06/Aug/2015 14:17:24] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 14:17:24] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 14:17:43] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 14:17:43] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 14:17:43] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 14:17:43] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 14:18:21] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 14:18:21] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 14:25:46] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 14:25:46] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 14:39:05] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 14:39:05] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 14:39:05] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 14:39:05] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 14:39:58] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 14:39:58] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 14:39:58] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 14:39:58] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 14:40:03] "GET /register/ HTTP/1.1" 200 1878
+[06/Aug/2015 14:40:03] "GET /static/css/signup.css HTTP/1.1" 304 0
+[06/Aug/2015 14:40:03] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 14:40:12] "GET / HTTP/1.1" 200 843
+[06/Aug/2015 14:47:15] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 14:47:15] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 14:47:15] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 14:47:16] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 14:47:16] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 14:47:16] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 14:47:16] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 14:47:16] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 14:47:17] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 14:47:17] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 14:47:17] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 14:47:17] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 14:47:18] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 14:47:18] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 14:47:18] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 14:47:18] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 14:47:20] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 14:47:20] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 14:47:20] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 14:47:20] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 14:47:22] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 14:47:24] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 14:47:28] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 14:56:54] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 14:56:54] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 14:56:54] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 14:56:54] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 14:56:57] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 14:56:57] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 14:56:57] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 14:56:57] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 15:03:22] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 15:03:22] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 15:03:22] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 15:03:22] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 15:08:33] "GET / HTTP/1.1" 200 843
+[06/Aug/2015 15:08:33] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 15:08:39] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 15:08:39] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 15:08:46] "GET /register/ HTTP/1.1" 200 1878
+[06/Aug/2015 15:08:46] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 15:10:40] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 15:10:40] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 15:10:40] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 15:10:40] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 15:10:42] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 15:10:42] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 15:10:42] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 15:10:42] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 15:18:09] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 15:18:09] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 15:18:09] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 15:18:09] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 15:21:55] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 15:21:55] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 15:21:55] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 15:21:55] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 15:21:57] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 15:21:58] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 15:21:59] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 15:21:59] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 15:22:00] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 15:22:00] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 15:33:05] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 15:33:05] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 15:33:05] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 15:33:05] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 15:33:08] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 15:33:08] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 15:33:08] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 15:33:08] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 15:35:39] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 15:35:39] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 15:35:39] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 15:35:39] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 15:38:23] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 15:38:23] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 15:38:23] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 15:38:23] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 15:38:26] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 15:38:26] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 15:38:26] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 15:38:26] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 15:38:38] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 15:38:39] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 15:39:07] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 15:39:07] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 15:39:07] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 15:39:07] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 15:39:11] "GET /register/ HTTP/1.1" 200 1878
+[06/Aug/2015 15:39:11] "GET /static/css/signup.css HTTP/1.1" 304 0
+[06/Aug/2015 15:39:11] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 15:39:11] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 15:39:17] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 15:39:17] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 15:39:17] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 15:42:05] "POST /login/ HTTP/1.1" 200 140
+[06/Aug/2015 15:42:07] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 15:42:46] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 15:42:46] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 15:42:46] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 15:42:46] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 15:42:48] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 15:42:48] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 15:42:48] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 15:42:48] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 15:43:56] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 15:43:56] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 15:43:56] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 15:43:56] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 15:44:21] "GET /register/ HTTP/1.1" 200 1878
+[06/Aug/2015 15:44:21] "GET /static/css/signup.css HTTP/1.1" 304 0
+[06/Aug/2015 15:44:21] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:02:11] "GET /register/ HTTP/1.1" 200 1878
+[06/Aug/2015 16:02:11] "GET /static/css/signup.css HTTP/1.1" 304 0
+[06/Aug/2015 16:02:11] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:02:11] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 16:02:15] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 16:02:15] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 16:02:15] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:02:15] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 16:13:47] "POST /login/ HTTP/1.1" 200 140
+[06/Aug/2015 16:13:50] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 16:13:58] "POST /login/ HTTP/1.1" 200 140
+[06/Aug/2015 16:14:01] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 16:20:00] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 16:20:00] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 16:20:00] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:20:00] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 16:20:01] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 16:20:01] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 16:20:01] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:20:02] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 16:21:15] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 16:21:15] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 16:21:15] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:21:15] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 16:21:17] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 16:21:18] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 16:21:18] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:21:18] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 16:21:19] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:21:20] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:21:21] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:23:20] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 16:23:20] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 16:23:20] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:23:20] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 16:34:45] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 16:34:45] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 16:34:45] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:34:45] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 16:34:47] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 16:34:47] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 16:34:47] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:34:47] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 16:34:50] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 16:34:50] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 16:34:50] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:34:50] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 16:34:52] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 16:34:52] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 16:34:52] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:34:52] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 16:35:31] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 16:35:31] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 16:35:31] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:35:31] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 16:35:33] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 16:35:33] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 16:35:33] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:35:33] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 16:35:38] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 16:35:38] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 16:35:38] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:35:38] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 16:35:43] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 16:35:43] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 16:35:43] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:35:43] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 16:35:45] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 16:35:45] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 16:35:45] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:35:45] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 16:35:47] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 16:35:47] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 16:35:47] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:35:47] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 16:35:49] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 16:35:49] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 16:35:49] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:35:49] "GET /static/css/index.css HTTP/1.1" 304 0
+Validating models...
+
+0 errors found
+August 06, 2015 - 13:52:13
+Django version 1.6.8, using settings 'ddbid.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<tr><td colspan="2"><ul class="errorlist"><li>用户名和密码为必填项</li></ul></td></tr>
+<tr><th><label for="id_username">手机号:</label></th><td><input class="inputxt" id="id_username" name="username" placeholder="手机号" type="text" value="rinehart0911" /></td></tr>
+<tr><th><label for="id_password">密码:</label></th><td><ul class="errorlist"><li>请输入密码</li></ul><input class="inputxt" id="id_password" name="password" placeholder="密码" type="password" /></td></tr>
+login fail!
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<tr><th><label for="id_username">手机号:</label></th><td><input class="inputxt" id="id_username" name="username" placeholder="手机号" type="text" value="15721448969" /></td></tr>
+<tr><th><label for="id_password">密码:</label></th><td><input class="inputxt" id="id_password" name="password" placeholder="密码" type="password" /></td></tr>
+{'username': u'15721448969', 'password': u'123'}
+login fail!
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<tr><th><label for="id_username">手机号:</label></th><td><input class="inputxt" id="id_username" name="username" placeholder="手机号" type="text" value="15721448969" /></td></tr>
+<tr><th><label for="id_password">密码:</label></th><td><input class="inputxt" id="id_password" name="password" placeholder="密码" type="password" /></td></tr>
+{'username': u'15721448969', 'password': u'123456\\'}
+login fail!
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xx[06/Aug/2015 16:37:39] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 16:37:39] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 16:37:39] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:37:39] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 16:38:52] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 16:38:53] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 16:38:53] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:38:53] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 16:39:59] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 16:39:59] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 16:39:59] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:39:59] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 16:40:01] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 16:40:01] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 16:40:01] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:40:01] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 16:40:03] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 16:40:03] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 16:40:03] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:40:03] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 16:40:39] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:40:40] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:40:40] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:40:41] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:40:42] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:40:42] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:40:42] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:40:42] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:40:42] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:40:42] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:41:23] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 16:41:23] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 16:41:23] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:41:23] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 16:41:26] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 16:41:26] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:41:42] "GET /register HTTP/1.1" 301 0
+[06/Aug/2015 16:41:42] "GET /register/ HTTP/1.1" 200 1878
+[06/Aug/2015 16:41:42] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:41:42] "GET /static/css/signup.css HTTP/1.1" 200 569
+[06/Aug/2015 16:41:42] "GET /static/css/index.css HTTP/1.1" 200 510
+[06/Aug/2015 16:44:43] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 16:44:43] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 16:44:43] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:44:43] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 16:44:53] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:46:46] "GET /register/ HTTP/1.1" 200 1878
+[06/Aug/2015 16:46:46] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:46:46] "GET /static/css/signup.css HTTP/1.1" 304 0
+[06/Aug/2015 16:46:46] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 16:47:28] "GET /login/ HTTP/1.1" 200 1500
+[06/Aug/2015 16:47:28] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 16:47:28] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:58:14] "GET /login/ HTTP/1.1" 200 1798
+[06/Aug/2015 16:58:14] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 16:58:18] "GET /login/ HTTP/1.1" 200 1798
+[06/Aug/2015 16:58:18] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:00:50] "GET /login/ HTTP/1.1" 200 1798
+[06/Aug/2015 17:00:50] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:00:53] "GET /login/ HTTP/1.1" 200 1798
+[06/Aug/2015 17:00:53] "GET /static/css/signin.css HTTP/1.1" 200 1204
+[06/Aug/2015 17:00:53] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:00:53] "GET /login/ HTTP/1.1" 200 1798
+[06/Aug/2015 17:00:53] "GET /static/css/signin.css HTTP/1.1" 200 1204
+[06/Aug/2015 17:00:53] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:00:53] "GET /static/css/index.css HTTP/1.1" 200 411
+[06/Aug/2015 17:00:53] "GET /login/ HTTP/1.1" 200 1798
+[06/Aug/2015 17:00:53] "GET /login/ HTTP/1.1" 200 1798
+[06/Aug/2015 17:00:53] "GET /login/ HTTP/1.1" 200 1798
+[06/Aug/2015 17:00:53] "GET /login/ HTTP/1.1" 200 1798
+[06/Aug/2015 17:00:53] "GET /login/ HTTP/1.1" 200 1798
+[06/Aug/2015 17:00:54] "GET /login/ HTTP/1.1" 200 1798
+[06/Aug/2015 17:00:54] "GET /login/ HTTP/1.1" 200 1798
+[06/Aug/2015 17:00:54] "GET /login/ HTTP/1.1" 200 1798
+[06/Aug/2015 17:00:54] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:00:54] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:00:54] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:02:43] "GET /login/ HTTP/1.1" 200 1798
+[06/Aug/2015 17:02:43] "GET /static/css/signin.css HTTP/1.1" 200 1204
+[06/Aug/2015 17:02:43] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:02:43] "GET /static/css/index.css HTTP/1.1" 200 411
+[06/Aug/2015 17:02:45] "GET /register/ HTTP/1.1" 200 1878
+[06/Aug/2015 17:02:45] "GET /static/css/signup.css HTTP/1.1" 304 0
+[06/Aug/2015 17:02:45] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:03:22] "GET /login/ HTTP/1.1" 200 1836
+[06/Aug/2015 17:03:23] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:03:23] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:03:23] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:04:21] "GET /login/ HTTP/1.1" 200 1830
+[06/Aug/2015 17:04:21] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:04:21] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:04:21] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:06:06] "GET /login/ HTTP/1.1" 200 1830
+[06/Aug/2015 17:06:06] "GET /static/css/signin.css HTTP/1.1" 200 1204
+[06/Aug/2015 17:06:06] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:06:06] "GET /static/css/index.css HTTP/1.1" 200 411
+[06/Aug/2015 17:06:10] "GET /login/ HTTP/1.1" 200 1830
+[06/Aug/2015 17:06:10] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:06:10] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:06:10] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:06:12] "GET /login/ HTTP/1.1" 200 1830
+[06/Aug/2015 17:06:12] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:06:12] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:06:12] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:06:15] "GET /login/ HTTP/1.1" 200 1830
+[06/Aug/2015 17:06:15] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:06:15] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:06:16] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:06:29] "POST /login/ HTTP/1.1" 200 140
+[06/Aug/2015 17:06:30] "GET /login/ HTTP/1.1" 200 1830
+[06/Aug/2015 17:07:06] "GET /login/ HTTP/1.1" 200 1830
+[06/Aug/2015 17:07:06] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:07:06] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:07:06] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:07:10] "GET /login/ HTTP/1.1" 200 1830
+[06/Aug/2015 17:07:10] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:07:10] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:07:10] "GET /login/ HTTP/1.1" 200 1830
+[06/Aug/2015 17:07:11] "GET /login/ HTTP/1.1" 200 1830
+[06/Aug/2015 17:07:11] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:07:11] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:07:11] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:11:11] "GET /login/ HTTP/1.1" 200 1830
+[06/Aug/2015 17:11:11] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:11:11] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:11:11] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:11:13] "GET /login/ HTTP/1.1" 200 1830
+[06/Aug/2015 17:11:13] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:11:14] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:11:14] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:11:52] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:13:11] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:13:11] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:13:31] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:14:01] "GET /login/ HTTP/1.1" 200 1830
+[06/Aug/2015 17:14:02] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:14:02] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:14:02] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:17:29] "GET /register/ HTTP/1.1" 200 1878
+[06/Aug/2015 17:17:29] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:17:29] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:17:34] "GET /login/ HTTP/1.1" 200 1830
+[06/Aug/2015 17:17:34] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:17:34] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:17:38] "POST /login/ HTTP/1.1" 200 140
+[06/Aug/2015 17:17:45] "GET /login/ HTTP/1.1" 200 1830
+[06/Aug/2015 17:17:45] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:17:45] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:17:45] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:17:53] "POST /login/ HTTP/1.1" 200 140
+[06/Aug/2015 17:18:01] "GET /login/ HTTP/1.1" 200 1830
+[06/Aug/2015 17:20:17] "GET /register/ HTTP/1.1" 200 1878
+[06/Aug/2015 17:20:17] "GET /static/css/signup.css HTTP/1.1" 304 0
+[06/Aug/2015 17:20:17] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:20:17] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:20:19] "GET /register/ HTTP/1.1" 200 1878
+[06/Aug/2015 17:20:19] "GET /static/css/signup.css HTTP/1.1" 304 0
+[06/Aug/2015 17:20:19] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:20:19] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:20:24] "GET /login/ HTTP/1.1" 200 1830
+[06/Aug/2015 17:20:24] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:20:24] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:20:26] "GET /login/ HTTP/1.1" 200 1830
+[06/Aug/2015 17:20:26] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:20:26] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:20:26] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:23:20] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:23:20] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:23:20] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:23:20] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:23:22] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:23:22] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:23:22] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:23:22] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:23:22] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:23:22] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:23:22] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:23:22] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:23:22] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:23:22] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:23:22] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:23:22] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:23:22] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:23:23] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:23:23] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:23:23] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:23:23] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:23:23] "GET /login/ HTTP/1.1" 200 1863
+xxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<tr><td colspan="2"><ul class="errorlist"><li>用户名和密码为必填项</li></ul></td></tr>
+<tr><th><label for="id_username">手机号:</label></th><td><ul class="errorlist"><li>请输入手机号</li></ul><input class="inputxt" id="id_username" name="username" placeholder="手机号" type="text" /></td></tr>
+<tr><th><label for="id_password">密码:</label></th><td><ul class="errorlist"><li>请输入密码</li></ul><input class="inputxt" id="id_password" name="password" placeholder="密码" type="password" /></td></tr>
+login fail!
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<tr><td colspan="2"><ul class="errorlist"><li>用户名和密码为必填项</li></ul></td></tr>
+<tr><th><label for="id_username">手机号:</label></th><td><ul class="errorlist"><li>请输入手机号</li></ul><input class="inputxt" id="id_username" name="username" placeholder="手机号" type="text" /></td></tr>
+<tr><th><label for="id_password">密码:</label></th><td><ul class="errorlist"><li>请输入密码</li></ul><input class="inputxt" id="id_password" name="password" placeholder="密码" type="password" /></td></tr>
+login fail!
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<tr><td colspan="2"><ul class="errorlist"><li>用户名和密码为必填项</li></ul></td></tr>
+<tr><th><label for="id_username">手机号:</label></th><td><ul class="errorlist"><li>请输入手机号</li></ul><input class="inputxt" id="id_username" name="username" placeholder="手机号" type="text" /></td></tr>
+<tr><th><label for="id_password">密码:</label></th><td><ul class="errorlist"><li>请输入密码</li></ul><input class="inputxt" id="id_password" name="password" placeholder="密码" type="password" /></td></tr>
+login fail!
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginF[06/Aug/2015 17:23:23] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:23:23] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:23:23] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:23:23] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:23:23] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:23:23] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:23:23] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:23:23] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:23:23] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:23:23] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:23:24] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:23:24] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:25:34] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:25:34] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:26:44] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:26:44] "GET /static/css/signin.css HTTP/1.1" 200 1159
+[06/Aug/2015 17:26:44] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:26:44] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:26:48] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:26:48] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:26:48] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:26:48] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:27:12] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:27:12] "GET /static/css/signin.css HTTP/1.1" 200 1159
+[06/Aug/2015 17:27:12] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:27:12] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:27:17] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:27:17] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:27:18] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:27:18] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:29:00] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:29:00] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:29:00] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:29:00] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:29:02] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:29:02] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:29:02] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:29:02] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:31:20] "POST /login/ HTTP/1.1" 200 140
+[06/Aug/2015 17:31:22] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:31:56] "POST /login/ HTTP/1.1" 200 140
+[06/Aug/2015 17:31:58] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:32:01] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:32:01] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:32:01] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:32:01] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:32:03] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:32:03] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:32:03] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:32:03] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:33:32] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:33:32] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:33:32] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:33:32] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:34:54] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:34:54] "GET /static/css/signin.css HTTP/1.1" 200 1155
+[06/Aug/2015 17:34:54] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:34:55] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:34:55] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:34:55] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:34:56] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:34:56] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:34:56] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:34:56] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:34:56] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:34:56] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:34:56] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:34:56] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:34:56] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:34:56] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:34:56] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:34:56] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:34:56] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:34:57] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:34:57] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:34:57] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:34:57] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:34:57] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:34:57] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:34:57] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:34:57] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:34:57] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:34:57] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:34:57] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:34:57] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:35:15] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:35:15] "GET /static/css/signin.css HTTP/1.1" 200 1155
+[06/Aug/2015 17:35:15] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:35:15] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:35:21] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:35:21] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:35:21] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:35:21] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:35:39] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:35:39] "GET /static/css/signin.css HTTP/1.1" 200 1155
+[06/Aug/2015 17:35:39] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:35:39] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:35:41] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:35:41] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:35:41] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:35:41] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:37:35] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 17:37:36] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 17:37:36] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 17:37:36] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 17:42:41] "POST /login/ HTTP/1.1" 200 140
+[06/Aug/2015 20:07:33] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:07:33] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:07:33] "GET /index1 HTTP/1.1" 200 828
+[06/Aug/2015 20:07:35] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:07:39] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:07:39] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:07:39] "GET /index1 HTTP/1.1" 200 828
+[06/Aug/2015 20:07:39] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:07:46] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:07:46] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:07:46] "GET /index1 HTTP/1.1" 200 828
+[06/Aug/2015 20:07:47] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:14:41] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:14:41] "GET /static/css/signin.css HTTP/1.1" 200 1182
+[06/Aug/2015 20:14:41] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:14:41] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:15:30] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:15:30] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:15:30] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:15:30] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:16:06] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:16:06] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:16:06] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:16:07] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:16:07] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:16:07] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:16:07] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:16:07] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:16:07] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:16:07] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:16:07] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:16:08] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:16:08] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:16:08] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:16:08] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:16:08] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:16:08] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:16:08] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:16:08] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:16:08] "GET /login/ HTTP/1.1" 200 1863
+orm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<tr><td colspan="2"><ul class="errorlist"><li>用户名和密码为必填项</li></ul></td></tr>
+<tr><th><label for="id_username">手机号:</label></th><td><ul class="errorlist"><li>请输入手机号</li></ul><input class="inputxt" id="id_username" name="username" placeholder="手机号" type="text" /></td></tr>
+<tr><th><label for="id_password">密码:</label></th><td><ul class="errorlist"><li>请输入密码</li></ul><input class="inputxt" id="id_password" name="password" placeholder="密码" type="password" /></td></tr>
+login fail!
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<tr><td colspan="2"><ul class="errorlist"><li>用户名和密码为必填项</li></ul></td></tr>
+<tr><th><label for="id_username">手机号:</label></th><td><ul class="errorlist"><li>请输入手机号</li></ul><input class="inputxt" id="id_username" name="username" placeholder="手机号" type="text" /></td></tr>
+<tr><th><label for="id_password">密码:</label></th><td><ul class="errorlist"><li>请输入密码</li></ul><input class="inputxt" id="id_password" name="password" placeholder="密码" type="password" /></td></tr>
+login fail!
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<tr><td colspan="2"><ul class="errorlist"><li>用户名和密码为必填项</li></ul></td></tr>
+<tr><th><label for="id_username">手机号:</label></th><td><ul class="errorlist"><li>请输入手机号</li></ul><input class="inputxt" id="id_username" name="username" placeholder="手机号" type="text" /></td></tr>
+<tr><th><label for="id_password">密码:</label></th><td><ul class="errorlist"><li>请输入密码</li></ul><input class="inputxt" id="id_password" name="password" placeholder="密码" type="password" /></td></tr>
+login fail!
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.form[06/Aug/2015 20:16:09] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:16:09] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:16:09] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:16:09] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:16:09] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:16:09] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:16:09] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:16:09] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:16:09] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:16:09] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:16:09] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:16:16] "GET /register/ HTTP/1.1" 200 2942
+[06/Aug/2015 20:16:16] "GET /register/js/jquery-1.8.3.min.js HTTP/1.1" 404 9205
+[06/Aug/2015 20:16:16] "GET /register/css/signup.css HTTP/1.1" 404 9181
+[06/Aug/2015 20:16:16] "GET /register/js/signup.js HTTP/1.1" 404 9175
+[06/Aug/2015 20:16:17] "GET /register/index.html HTTP/1.1" 404 9169
+[06/Aug/2015 20:17:09] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:17:09] "GET /static/css/signin.css HTTP/1.1" 200 1182
+[06/Aug/2015 20:17:09] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:17:09] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:17:13] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:17:13] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:17:13] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:17:13] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:17:31] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:17:31] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:17:31] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:17:31] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:17:33] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:17:33] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:17:33] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:17:33] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:18:31] "GET /register/ HTTP/1.1" 200 2942
+[06/Aug/2015 20:18:31] "GET /register/css/signup.css HTTP/1.1" 404 9181
+[06/Aug/2015 20:18:31] "GET /register/js/jquery-1.8.3.min.js HTTP/1.1" 404 9205
+[06/Aug/2015 20:18:31] "GET /register/js/signup.js HTTP/1.1" 404 9175
+[06/Aug/2015 20:18:31] "GET /register/index.html HTTP/1.1" 404 9169
+[06/Aug/2015 20:18:52] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:18:52] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:18:52] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:18:52] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:19:17] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:19:17] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:19:17] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:19:17] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:19:58] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:19:58] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:19:58] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:19:58] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:20:46] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:20:46] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:20:46] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:20:46] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:20:49] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:20:49] "GET /static/css/signin.css HTTP/1.1" 200 1182
+[06/Aug/2015 20:20:49] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:20:49] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:20:58] "GET /register/ HTTP/1.1" 200 2942
+[06/Aug/2015 20:20:58] "GET /register/css/signup.css HTTP/1.1" 404 9181
+[06/Aug/2015 20:20:58] "GET /register/js/jquery-1.8.3.min.js HTTP/1.1" 404 9205
+[06/Aug/2015 20:20:58] "GET /register/js/signup.js HTTP/1.1" 404 9175
+[06/Aug/2015 20:20:58] "GET /register/index.html HTTP/1.1" 404 9169
+[06/Aug/2015 20:21:35] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:21:35] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:21:35] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:21:35] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:22:16] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:22:16] "GET /static/css/signin.css HTTP/1.1" 200 1182
+[06/Aug/2015 20:22:16] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:22:17] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:22:22] "POST /login/ HTTP/1.1" 200 140
+[06/Aug/2015 20:22:45] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:22:45] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:22:45] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:22:45] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:22:58] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:22:58] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:22:58] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:22:59] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:23:09] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:23:21] "GET / HTTP/1.1" 200 824
+[06/Aug/2015 20:23:21] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:25:38] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:25:38] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:25:38] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:25:38] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:26:41] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:26:41] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:26:41] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:26:41] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:27:01] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:27:01] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:27:01] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:27:01] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:27:03] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:27:03] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:27:03] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:27:03] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:27:07] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:27:07] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:27:07] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:27:07] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:28:06] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:28:06] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:28:06] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:28:06] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:28:13] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:28:13] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:28:13] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:28:13] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:28:35] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:28:35] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:28:35] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:28:35] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:28:47] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:28:47] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:28:47] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:28:47] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:28:52] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:28:52] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:28:52] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:28:52] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:29:26] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:29:26] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:29:26] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:29:26] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:29:28] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:29:28] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:29:28] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:29:28] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:30:20] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:30:20] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:30:20] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:30:20] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:30:22] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:30:22] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:30:22] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:30:22] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:30:24] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:30:24] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:30:24] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:30:24] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:30:26] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:30:26] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:30:26] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:30:26] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:32:51] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:32:51] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:32:51] "GET /index1 HTTP/1.1" 200 824
+[06/Aug/2015 20:32:51] "GET /css/index.css HTTP/1.1" 404 9151
+[06/Aug/2015 20:33:24] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:33:24] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 20:33:24] "GET /static/css/index.css HTTP/1.1" 200 411
+[06/Aug/2015 20:33:54] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:33:54] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:33:54] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 20:33:54] "GET /static/css/index.css HTTP/1.1" 200 411
+[06/Aug/2015 20:33:59] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 20:33:59] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 20:34:01] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 20:34:01] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 20:39:18] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:39:18] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:39:18] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 20:39:19] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 20:39:24] "GET /register/ HTTP/1.1" 200 2942
+[06/Aug/2015 20:39:24] "GET /register/css/signup.css HTTP/1.1" 404 9181
+[06/Aug/2015 20:39:24] "GET /register/js/signup.js HTTP/1.1" 404 9175
+[06/Aug/2015 20:39:24] "GET /register/js/jquery-1.8.3.min.js HTTP/1.1" 404 9205
+[06/Aug/2015 20:39:24] "GET /register/js/signup.js HTTP/1.1" 404 9175
+[06/Aug/2015 20:39:24] "GET /register/index.html HTTP/1.1" 404 9169
+[06/Aug/2015 20:41:18] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:41:18] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 20:41:18] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 20:41:23] "GET /register/ HTTP/1.1" 200 2942
+[06/Aug/2015 20:41:24] "GET /register/css/signup.css HTTP/1.1" 404 9181
+[06/Aug/2015 20:41:24] "GET /register/js/signup.js HTTP/1.1" 404 9175
+[06/Aug/2015 20:41:24] "GET /register/js/jquery-1.8.3.min.js HTTP/1.1" 404 9205
+[06/Aug/2015 20:41:24] "GET /register/js/signup.js HTTP/1.1" 404 9175
+[06/Aug/2015 20:41:24] "GET /register/index.html HTTP/1.1" 404 9169
+[06/Aug/2015 20:44:23] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:44:23] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:44:23] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 20:44:23] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 20:44:24] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 20:44:24] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 20:44:24] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 20:44:24] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 22:31:09] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 22:31:09] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 22:31:09] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 22:31:09] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 22:31:13] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 22:31:13] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 22:31:13] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 22:31:13] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 22:33:07] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 22:33:07] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 22:33:07] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 22:33:07] "GET /static/css/index.css HTTP/1.1" 200 411
+[06/Aug/2015 22:35:20] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 22:35:20] "GET /static/css/signin.css HTTP/1.1" 200 1182
+[06/Aug/2015 22:35:20] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 22:35:20] "GET /static/css/index.css HTTP/1.1" 200 411
+[06/Aug/2015 22:42:00] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 22:42:00] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 22:42:00] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 22:44:38] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 22:44:38] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 22:44:38] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 22:44:38] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 22:51:22] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 22:51:22] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 23:04:06] "GET /signup.html HTTP/1.1" 404 9145
+[06/Aug/2015 23:13:40] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 23:13:40] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 23:13:40] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 23:13:40] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 23:14:38] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 23:14:38] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 23:14:38] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 23:14:39] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 23:30:10] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 23:30:10] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 23:36:39] "GET /login/ HTTP/1.1" 200 1863
+[06/Aug/2015 23:36:40] "GET /static/css/signin.css HTTP/1.1" 304 0
+[06/Aug/2015 23:36:40] "GET /index1 HTTP/1.1" 200 843
+[06/Aug/2015 23:36:40] "GET /static/css/index.css HTTP/1.1" 304 0
+[06/Aug/2015 23:44:00] "GET /signin.html HTTP/1.1" 404 9145
+[07/Aug/2015 01:37:09] code 400, message Bad request syntax ('\x00')
+[07/Aug/2015 01:37:09] " " 400 -
+[07/Aug/2015 01:37:10] "GET http://httpheader.net HTTP/1.1" 404 1653
+[07/Aug/2015 01:37:50] code 400, message Bad request syntax ('\x04\x01\x00P\xc0\x03\xb1\xaa0\x00')
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 286, in parse_request
+    self.send_error(400, "Bad request syntax (%r)" % requestline)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 138, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xc0 in position 5: invalid start byte
+[07/Aug/2015 01:37:52] code 400, message Bad request syntax ('\x05\x01\x00')
+[07/Aug/2015 01:37:52] " " 400 -
+[07/Aug/2015 09:00:09] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:00:09] "GET /static/css/signin.css HTTP/1.1" 200 1182
+[07/Aug/2015 09:00:09] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:00:09] "GET /static/css/index.css HTTP/1.1" 200 411
+[07/Aug/2015 09:00:11] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:00:11] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:01:37] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:01:37] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:03:37] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:03:37] "GET /static/css/signin.css HTTP/1.1" 200 1182
+[07/Aug/2015 09:03:37] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:03:37] "GET /static/css/index.css HTTP/1.1" 200 411
+[07/Aug/2015 09:04:53] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:04:53] "GET /static/css/signin.css HTTP/1.1" 200 1182
+[07/Aug/2015 09:04:53] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:04:53] "GET /static/css/index.css HTTP/1.1" 200 411
+[07/Aug/2015 09:05:17] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:05:17] "GET /static/css/signin.css HTTP/1.1" 200 1182
+[07/Aug/2015 09:05:17] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:05:18] "GET /static/css/index.css HTTP/1.1" 200 411
+[07/Aug/2015 09:05:45] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:05:45] "GET /static/css/signin.css HTTP/1.1" 200 1182
+[07/Aug/2015 09:05:45] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:05:45] "GET /static/css/index.css HTTP/1.1" 200 411
+[07/Aug/2015 09:06:06] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:06:07] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:12:37] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:12:37] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:12:37] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:12:37] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 09:12:40] "POST /login/ HTTP/1.1" 200 140
+[07/Aug/2015 09:12:55] "GET /register/ HTTP/1.1" 200 2942
+[07/Aug/2015 09:12:55] "GET /register/css/signup.css HTTP/1.1" 404 9181
+[07/Aug/2015 09:12:55] "GET /register/js/jquery-1.8.3.min.js HTTP/1.1" 404 9205
+[07/Aug/2015 09:12:55] "GET /register/js/signup.js HTTP/1.1" 404 9175
+[07/Aug/2015 09:12:55] "GET /register/index.html HTTP/1.1" 404 9169
+[07/Aug/2015 09:15:43] "GET /register/ HTTP/1.1" 200 2942
+[07/Aug/2015 09:15:43] "GET /register/css/signup.css HTTP/1.1" 404 9181
+[07/Aug/2015 09:15:43] "GET /register/js/jquery-1.8.3.min.js HTTP/1.1" 404 9205
+[07/Aug/2015 09:15:43] "GET /register/js/signup.js HTTP/1.1" 404 9175
+[07/Aug/2015 09:15:43] "GET /register/index.html HTTP/1.1" 404 9169
+[07/Aug/2015 09:16:07] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:16:08] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:16:13] "GET /register/ HTTP/1.1" 200 2942
+[07/Aug/2015 09:16:13] "GET /register/css/signup.css HTTP/1.1" 404 9181
+[07/Aug/2015 09:16:13] "GET /register/js/jquery-1.8.3.min.js HTTP/1.1" 404 9205
+[07/Aug/2015 09:16:13] "GET /register/js/signup.js HTTP/1.1" 404 9175
+[07/Aug/2015 09:16:14] "GET /register/index.html HTTP/1.1" 404 9169
+[07/Aug/2015 09:17:10] "GET / HTTP/1.1" 200 843
+[07/Aug/2015 09:17:11] "GET /static/css/index.css HTTP/1.1" 200 411
+[07/Aug/2015 09:17:15] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:17:15] "GET /static/css/signin.css HTTP/1.1" 200 1182
+[07/Aug/2015 09:17:15] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:17:36] "GET /register/ HTTP/1.1" 200 2942
+[07/Aug/2015 09:17:36] "GET /register/js/jquery-1.8.3.min.js HTTP/1.1" 404 9205
+[07/Aug/2015 09:17:36] "GET /register/css/signup.css HTTP/1.1" 404 9181
+[07/Aug/2015 09:17:36] "GET /register/js/signup.js HTTP/1.1" 404 9175
+[07/Aug/2015 09:17:36] "GET /register/index.html HTTP/1.1" 404 9169
+[07/Aug/2015 09:21:06] "GET /register/index.html HTTP/1.1" 404 9169
+[07/Aug/2015 09:21:31] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:21:31] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:21:31] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:21:31] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 09:21:37] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:21:37] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:21:38] "GET /register/ HTTP/1.1" 200 2942
+[07/Aug/2015 09:21:38] "GET /register/css/signup.css HTTP/1.1" 404 9181
+[07/Aug/2015 09:21:38] "GET /register/js/jquery-1.8.3.min.js HTTP/1.1" 404 9205
+[07/Aug/2015 09:21:38] "GET /register/js/signup.js HTTP/1.1" 404 9175
+[07/Aug/2015 09:21:39] "GET /register/index.html HTTP/1.1" 404 9169
+[07/Aug/2015 09:21:44] "GET /register/ HTTP/1.1" 200 2942
+[07/Aug/2015 09:21:44] "GET /register/js/signup.js HTTP/1.1" 404 9175
+[07/Aug/2015 09:21:44] "GET /register/css/signup.css HTTP/1.1" 404 9181
+[07/Aug/2015 09:21:44] "GET /register/js/jquery-1.8.3.min.js HTTP/1.1" 404 9205
+[07/Aug/2015 09:21:44] "GET /register/index.html HTTP/1.1" 404 9169
+[07/Aug/2015 09:21:52] "GET /register/ HTTP/1.1" 200 2942
+[07/Aug/2015 09:21:52] "GET /register/js/jquery-1.8.3.min.js HTTP/1.1" 404 9205
+[07/Aug/2015 09:21:52] "GET /register/js/signup.js HTTP/1.1" 404 9175
+[07/Aug/2015 09:21:52] "GET /register/css/signup.css HTTP/1.1" 404 9181
+[07/Aug/2015 09:21:52] "GET /register/index.html HTTP/1.1" 404 9169
+[07/Aug/2015 09:23:14] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:23:14] "GET /index1 HTTP/1.1" 200 843
+s.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<tr><td colspan="2"><ul class="errorlist"><li>用户名和密码为必填项</li></ul></td></tr>
+<tr><th><label for="id_username">手机号:</label></th><td><ul class="errorlist"><li>请输入手机号</li></ul><input class="inputxt" id="id_username" name="username" placeholder="手机号" type="text" /></td></tr>
+<tr><th><label for="id_password">密码:</label></th><td><ul class="errorlist"><li>请输入密码</li></ul><input class="inputxt" id="id_password" name="password" placeholder="密码" type="password" /></td></tr>
+login fail!
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+----------------------------------------
+Exception happened during processing of request from ('80.82.70.24', 47738)
+----------------------------------------
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<tr><td colspan="2"><ul class="errorlist"><li>用户名和密码为必填项</li></ul></td></tr>
+<tr><th><label for="id_username">手机号:</label></th><td><ul class="errorlist"><li>请输入手机号</li></ul><input class="inputxt" id="id_username" name="username" placeholder="手机号" type="text" /></td></tr>
+<tr><th><label for="id_password">密码:</label></th><td><ul class="errorlist"><li>请输入密码</li></ul><input class="inputxt" id="id_password" name="password" placeholder="密码" type="password" /></td></tr>
+login fail!
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<tr><td colspan="2"><ul class="errorlist"><li>用户名和密码为必填�[07/Aug/2015 09:23:16] "POST /login/ HTTP/1.1" 200 140
+[07/Aug/2015 09:23:23] "GET /register/ HTTP/1.1" 200 2942
+[07/Aug/2015 09:23:23] "GET /register/css/signup.css HTTP/1.1" 404 9181
+[07/Aug/2015 09:23:23] "GET /register/js/jquery-1.8.3.min.js HTTP/1.1" 404 9205
+[07/Aug/2015 09:23:23] "GET /register/js/signup.js HTTP/1.1" 404 9175
+[07/Aug/2015 09:23:24] "GET /register/index.html HTTP/1.1" 404 9169
+[07/Aug/2015 09:24:28] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:24:28] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:25:35] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:25:35] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:25:35] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:29:30] "GET /register/ HTTP/1.1" 200 2942
+[07/Aug/2015 09:29:30] "GET /register/css/signup.css HTTP/1.1" 404 9181
+[07/Aug/2015 09:29:30] "GET /register/js/signup.js HTTP/1.1" 404 9175
+[07/Aug/2015 09:29:30] "GET /register/js/jquery-1.8.3.min.js HTTP/1.1" 404 9205
+[07/Aug/2015 09:29:30] "GET /register/index.html HTTP/1.1" 404 9169
+[07/Aug/2015 09:29:39] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:29:39] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:35:12] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:35:12] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:35:12] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:35:12] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 09:35:14] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:35:14] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:35:14] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:35:14] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 09:35:17] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:35:17] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:35:17] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:35:17] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 09:35:19] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:35:19] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:35:19] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:35:19] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 09:35:22] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:35:22] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:37:33] "GET /register/ HTTP/1.1" 200 2963
+[07/Aug/2015 09:37:33] "GET /register/static/css/signup.css HTTP/1.1" 404 9202
+[07/Aug/2015 09:37:33] "GET /register/static/js/jquery-1.8.3.min.js HTTP/1.1" 404 9226
+[07/Aug/2015 09:37:33] "GET /register/static/js/signup.js HTTP/1.1" 404 9196
+[07/Aug/2015 09:37:34] "GET /register/index.html HTTP/1.1" 404 9169
+[07/Aug/2015 09:37:48] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:37:48] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:37:48] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:37:48] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 09:37:50] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:37:50] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:37:50] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:37:50] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 09:37:51] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:37:51] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:37:51] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:37:51] "GET /static/css/index.css HTTP/1.1" 304 0
+�</li></ul></td></tr>
+<tr><th><label for="id_username">手机号:</label></th><td><ul class="errorlist"><li>请输入手机号</li></ul><input class="inputxt" id="id_username" name="username" placeholder="手机号" type="text" /></td></tr>
+<tr><th><label for="id_password">密码:</label></th><td><ul class="errorlist"><li>请输入密码</li></ul><input class="inputxt" id="id_password" name="password" placeholder="密码" type="password" /></td></tr>
+login fail!
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+[07/Aug/2015 09:40:11] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:40:11] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:40:11] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:40:11] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 09:40:13] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:40:13] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:40:13] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:40:13] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 09:40:14] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:40:14] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:40:14] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:40:14] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 09:40:15] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:40:15] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:40:15] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:40:16] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 09:40:17] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:40:17] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:40:17] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:40:17] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 09:40:34] "GET /register/ HTTP/1.1" 200 2966
+[07/Aug/2015 09:40:34] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 404 1672
+[07/Aug/2015 09:40:34] "GET /static/js/signup.js HTTP/1.1" 404 1642
+[07/Aug/2015 09:40:34] "GET /static/css/signup.css HTTP/1.1" 200 1244
+[07/Aug/2015 09:40:34] "GET /register/index.html HTTP/1.1" 404 9169
+[07/Aug/2015 09:40:58] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:40:58] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:40:58] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:40:58] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 09:41:00] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:41:00] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:41:00] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:41:00] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 09:41:01] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:41:01] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:41:01] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:41:01] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 09:42:12] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:42:12] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:42:12] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:42:12] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 09:42:14] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:42:14] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:42:14] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:42:14] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 09:42:15] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:42:15] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:42:15] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:42:15] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 09:42:16] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:42:16] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:42:16] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:42:16] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 09:42:18] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:42:18] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:42:18] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:42:18] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 09:42:29] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:42:29] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:42:35] "GET /register/ HTTP/1.1" 200 2974
+[07/Aug/2015 09:42:35] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 404 1672
+[07/Aug/2015 09:42:35] "GET /static/js/signup.js HTTP/1.1" 404 1642
+[07/Aug/2015 09:42:35] "GET /static/index.html HTTP/1.1" 404 1636
+[07/Aug/2015 09:43:15] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:43:15] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:43:15] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:43:15] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 09:43:16] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:43:16] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:43:21] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:43:22] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:43:22] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:43:22] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 09:43:55] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:43:55] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:49:25] "GET /login/ HTTP/1.1" 200 1863
+[07/Aug/2015 09:49:25] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:49:25] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:49:25] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 09:50:52] "GET /login/ HTTP/1.1" 200 1830
+[07/Aug/2015 09:50:52] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:50:52] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:50:52] "GET /login/ HTTP/1.1" 200 1830
+[07/Aug/2015 09:50:53] "GET /login/ HTTP/1.1" 200 1830
+[07/Aug/2015 09:50:53] "GET /login/ HTTP/1.1" 200 1830
+[07/Aug/2015 09:50:53] "GET /login/ HTTP/1.1" 200 1830
+[07/Aug/2015 09:50:53] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:50:53] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:50:53] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 09:50:53] "GET /login/ HTTP/1.1" 200 1830
+[07/Aug/2015 09:50:53] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:50:53] "GET /index1 HTTP/1.1" 200 843
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 126, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/wsgiref/simple_server.py", line 116, in handle
+    self.raw_requestline = self.rfile.readline()
+  File "/usr/lib/python2.7/socket.py", line 447, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[07/Aug/2015 09:51:16] "GET /login/ HTTP/1.1" 200 1830
+[07/Aug/2015 09:51:16] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:51:17] "GET /login/ HTTP/1.1" 200 1830
+[07/Aug/2015 09:51:17] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:51:17] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:51:18] "GET /login/ HTTP/1.1" 200 1830
+[07/Aug/2015 09:51:18] "GET /login/ HTTP/1.1" 200 1830
+[07/Aug/2015 09:51:18] "GET /login/ HTTP/1.1" 200 1830
+[07/Aug/2015 09:51:18] "GET /login/ HTTP/1.1" 200 1830
+[07/Aug/2015 09:51:18] "GET /login/ HTTP/1.1" 200 1830
+[07/Aug/2015 09:51:18] "GET /login/ HTTP/1.1" 200 1830
+[07/Aug/2015 09:51:18] "GET /login/ HTTP/1.1" 200 1830
+[07/Aug/2015 09:51:18] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:51:18] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:51:18] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 09:52:56] "GET /login/ HTTP/1.1" 200 1830
+[07/Aug/2015 09:52:56] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:53:00] "GET /register/ HTTP/1.1" 200 2985
+[07/Aug/2015 09:53:00] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 404 1672
+[07/Aug/2015 09:53:00] "GET /static/js/signup.js HTTP/1.1" 404 1642
+[07/Aug/2015 09:53:00] "GET /static/js/signup.js HTTP/1.1" 404 1642
+[07/Aug/2015 09:53:01] "GET /searcher/template/index.html HTTP/1.1" 404 9196
+[07/Aug/2015 09:54:28] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 09:54:28] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 09:54:28] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 404 1672
+[07/Aug/2015 09:54:28] "GET /static/js/signup.js HTTP/1.1" 404 1642
+[07/Aug/2015 09:54:28] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:54:45] "GET /login/ HTTP/1.1" 200 1831
+[07/Aug/2015 09:54:45] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:54:45] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:54:45] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 09:54:51] "GET /login/ HTTP/1.1" 200 1831
+[07/Aug/2015 09:56:07] "GET /static/index.html HTTP/1.1" 404 1636
+[07/Aug/2015 09:56:53] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 09:56:53] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 09:56:53] "GET /static/js/signup.js HTTP/1.1" 200 1796
+[07/Aug/2015 09:56:53] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 200 93639
+[07/Aug/2015 09:56:54] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:58:37] "GET /login/ HTTP/1.1" 200 1830
+[07/Aug/2015 09:58:37] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:58:37] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:58:37] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 09:58:39] "GET /login/ HTTP/1.1" 200 1830
+[07/Aug/2015 09:58:39] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:58:39] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:58:39] "GET /static/css/index.css HTTP/1.1" 304 0
+Validating models...
+
+0 errors found
+August 07, 2015 - 09:42:08
+Django version 1.6.8, using settings 'ddbid.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+----------------------------------------
+Exception happened during processing of request from ('211.95.56.242', 54759)
+----------------------------------------
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+[07/Aug/2015 09:59:16] "GET /login/ HTTP/1.1" 200 1830
+[07/Aug/2015 09:59:16] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:59:16] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:59:16] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 09:59:18] "GET /login/ HTTP/1.1" 200 1830
+[07/Aug/2015 09:59:18] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 09:59:18] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 09:59:18] "GET /static/css/index.css HTTP/1.1" 304 0
+Validating models...
+
+0 errors found
+August 07, 2015 - 09:59:11
+Django version 1.6.8, using settings 'ddbid.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+[07/Aug/2015 10:04:25] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:04:25] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 10:04:25] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 10:04:25] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:04:41] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:04:41] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 10:04:41] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 10:04:41] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:04:49] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:04:49] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 10:06:08] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:06:08] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 10:06:08] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 10:06:08] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:06:12] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:06:12] "GET /static/js/signup.js HTTP/1.1" 200 1796
+[07/Aug/2015 10:06:12] "GET /static/css/signup.css HTTP/1.1" 200 1244
+[07/Aug/2015 10:06:13] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 200 93639
+[07/Aug/2015 10:06:13] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 10:06:20] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:06:20] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 10:06:21] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:06:21] "GET /static/css/signup.css HTTP/1.1" 200 1244
+[07/Aug/2015 10:06:21] "GET /static/js/signup.js HTTP/1.1" 200 1796
+[07/Aug/2015 10:06:22] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 200 93639
+[07/Aug/2015 10:06:22] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 10:06:22] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:06:22] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 10:06:33] "GET /searcher/template/index.html HTTP/1.1" 404 9196
+[07/Aug/2015 10:06:33] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:06:33] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 10:06:35] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:06:35] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 10:06:41] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:06:41] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 10:06:44] "GET / HTTP/1.1" 200 843
+[07/Aug/2015 10:06:49] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:06:49] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 10:06:50] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:06:50] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 10:07:24] "POST /login/ HTTP/1.1" 200 140
+[07/Aug/2015 10:07:30] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:07:37] "POST /login/ HTTP/1.1" 200 140
+[07/Aug/2015 10:07:40] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:07:40] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 10:08:04] "POST /login/ HTTP/1.1" 200 140
+[07/Aug/2015 10:08:19] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:08:19] "GET /static/css/signup.css HTTP/1.1" 200 1244
+[07/Aug/2015 10:08:19] "GET /static/js/signup.js HTTP/1.1" 200 1796
+[07/Aug/2015 10:08:19] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 200 93639
+[07/Aug/2015 10:08:20] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 10:08:20] "GET /static/css/index.css HTTP/1.1" 200 411
+[07/Aug/2015 10:08:58] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:08:58] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 10:08:58] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 10:08:58] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 10:08:58] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 10:08:59] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:09:44] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:09:44] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 10:10:12] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:10:12] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 10:10:12] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 10:10:12] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 10:10:12] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 10:10:13] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:10:31] "POST /login/ HTTP/1.1" 200 140
+[07/Aug/2015 10:10:33] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:10:37] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 10:10:39] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 10:10:39] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 10:10:40] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 10:10:41] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 10:11:13] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:11:13] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 10:11:13] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 10:11:14] "GET /index1 HTTP/1.1" 200 843
+[07/Aug/2015 10:18:11] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:18:11] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 10:18:11] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:18:11] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:18:12] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:18:12] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 10:18:12] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 10:18:12] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:18:16] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:18:16] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 10:18:16] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:18:16] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:18:18] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:18:18] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:18:22] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:18:22] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 10:18:22] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:18:22] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:18:24] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:18:24] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:18:27] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:18:27] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 10:18:27] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:18:27] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:18:29] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:18:29] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:18:37] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:18:37] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:18:39] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:18:39] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:18:40] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:18:40] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:21:27] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:21:27] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 10:21:27] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 10:21:27] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:21:38] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:21:38] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:21:41] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:21:41] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:21:45] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:21:45] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:23:28] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:23:28] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 10:23:28] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:23:28] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:23:30] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:23:30] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:23:32] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:23:32] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 10:23:32] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:23:32] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:23:34] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:23:34] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:23:36] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:23:36] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 10:23:36] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:23:36] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:23:38] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:23:38] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:23:42] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:23:42] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 10:23:42] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:23:42] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:23:44] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:23:44] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:23:45] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:23:45] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 10:23:45] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:23:45] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:23:50] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:23:50] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:24:21] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:24:21] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 10:24:21] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 10:24:21] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 10:24:22] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:24:22] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:26:37] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:26:37] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:26:38] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:26:38] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 10:26:38] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 10:26:38] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:26:45] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:26:45] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:26:49] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:26:49] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:32:13] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:32:13] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 10:32:13] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:32:13] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:32:15] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:32:15] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 10:32:15] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 10:32:15] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:32:23] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:32:23] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 10:32:23] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:32:23] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:32:25] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:32:25] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:32:27] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:32:27] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 10:32:27] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:32:27] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:32:29] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:32:30] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:32:31] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:32:32] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:32:34] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:32:34] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:32:37] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:32:37] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 10:32:37] "GET /index1 HTTP/1.1" 200 868
+[07/Aug/2015 10:32:37] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:36:29] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:36:29] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 10:36:29] "GET /index1 HTTP/1.1" 200 907
+[07/Aug/2015 10:36:29] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:36:31] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:36:31] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 10:36:31] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 10:36:31] "GET /index1 HTTP/1.1" 200 907
+[07/Aug/2015 10:36:33] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:36:33] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 10:36:33] "GET /index1 HTTP/1.1" 200 907
+[07/Aug/2015 10:36:33] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:38:40] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:38:40] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 10:38:40] "GET /index1 HTTP/1.1" 200 912
+[07/Aug/2015 10:38:40] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:39:27] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:39:27] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 10:39:27] "GET /index1 HTTP/1.1" 200 914
+[07/Aug/2015 10:39:27] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:39:29] "GET /userinformation/ HTTP/1.1" 302 0
+[07/Aug/2015 10:39:29] "GET /login?next=/userinformation/ HTTP/1.1" 301 0
+[07/Aug/2015 10:39:29] "GET /login/?next=/userinformation/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:39:29] "GET /index1 HTTP/1.1" 200 914
+[07/Aug/2015 10:40:06] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:40:06] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 10:40:06] "GET /index1 HTTP/1.1" 200 904
+[07/Aug/2015 10:40:06] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:40:08] "GET /index1 HTTP/1.1" 200 904
+[07/Aug/2015 10:40:08] "GET /index1 HTTP/1.1" 200 904
+[07/Aug/2015 10:40:09] "GET /index1 HTTP/1.1" 200 904
+[07/Aug/2015 10:40:09] "GET /index1 HTTP/1.1" 200 904
+[07/Aug/2015 10:40:09] "GET /index1 HTTP/1.1" 200 904
+[07/Aug/2015 10:40:10] "GET /index1 HTTP/1.1" 200 904
+[07/Aug/2015 10:40:10] "GET /index1 HTTP/1.1" 200 904
+[07/Aug/2015 10:40:10] "GET /index1 HTTP/1.1" 200 904
+[07/Aug/2015 10:40:10] "GET /index1 HTTP/1.1" 200 904
+[07/Aug/2015 10:40:12] "GET /index1 HTTP/1.1" 200 904
+[07/Aug/2015 10:41:02] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:41:02] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 10:41:02] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:41:02] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:41:03] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:41:04] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:41:06] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:41:13] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:41:13] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 10:41:13] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 10:41:13] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 10:41:14] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:41:14] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:41:16] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:41:16] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 10:41:16] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 10:41:16] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 10:41:16] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:41:16] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:41:18] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:41:18] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:41:19] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:41:20] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:41:26] "GET /logo/ HTTP/1.1" 404 9127
+[07/Aug/2015 10:43:27] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:43:27] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 10:43:27] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:43:27] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:43:29] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:43:29] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:43:30] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:43:30] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:43:30] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:43:30] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:43:31] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:43:31] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:43:31] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:43:31] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:43:31] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:43:35] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:43:36] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:43:37] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:43:38] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:43:39] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:44:20] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:44:20] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 10:44:20] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:44:20] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:44:22] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:44:22] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 10:44:22] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:44:22] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:44:23] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:44:24] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:44:25] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:44:26] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:44:27] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:44:28] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:44:29] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:44:30] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:44:35] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:44:52] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:44:56] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:44:57] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:44:58] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:44:59] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:44:59] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:45:05] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:45:48] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:45:48] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:45:52] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:45:52] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 10:45:52] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:45:52] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:45:53] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:45:55] "GET /index1 HTTP/1.1" 200 890
+[07/Aug/2015 10:48:28] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:48:28] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 10:48:28] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:48:28] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:48:29] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:48:29] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 10:48:29] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 10:48:29] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:48:32] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:48:32] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 10:48:32] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:48:32] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:48:33] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:48:33] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:48:36] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:48:36] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 10:48:36] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:48:36] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:48:40] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:48:41] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:48:43] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:48:43] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:48:47] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:48:47] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:49:10] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:49:10] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 10:49:10] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 10:49:10] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 10:49:10] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:49:10] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:49:11] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:49:11] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 10:49:11] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 10:49:11] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:49:31] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:49:34] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:49:35] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:49:40] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:49:40] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:49:44] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:49:44] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:49:50] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:49:50] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:49:53] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:49:53] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:49:56] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:49:56] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:49:58] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:49:58] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:50:03] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:50:03] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:50:05] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:50:05] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:50:12] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:50:12] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:50:14] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 10:50:17] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:50:17] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:50:20] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:50:20] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:50:23] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:50:23] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:50:30] "GET / HTTP/1.1" 200 893
+Validating models...
+
+0 errors found
+August 07, 2015 - 10:00:23
+Django version 1.6.8, using settings 'ddbid.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<tr><th><label for="id_username">手机号:</label></th><td><input class="inputxt" id="id_username" name="username" placeholder="手机号" type="text" value="15721448969" /></td></tr>
+<tr><th><label for="id_password">密码:</label></th><td><input class="inputxt" id="id_password" name="password" placeholder="密码" type="text" /></td></tr>
+{'username': u'15721448969', 'password': u'123456'}
+login fail!
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<tr><th><label for="id_username">手机号:</label></th><td><input class="inputxt" id="id_username" name="username" placeholder="手机号" type="text" value="15721448969" /></td></tr>
+<tr><th><label for="id_password">密码:</label></th><td><input class="inputxt" id="id_password" name="password" placeholder="密码" type="text" /></td></tr>
+{'username': u'15721448969', 'password': u'123456'}
+login fail!
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<tr><th><label for="id_username">手机号:</label></th><td><input class="inputxt" id="id_username" name="username" placeholder="手机号" type="text" value="15721448969" /></td></tr>
+<tr><th><label for="id_password">密码:</label></th><td><input class="inputxt" id="id_password" name="password" placeholder="密码" type="text" /></td></tr>
+{'username': u'15721448969', 'password': u'123456'}
+login fail!
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<tr><th><label for="id_username">手机号:</label></th><td><input class="inputxt" id="id_username" name="username" placeholder="手机号" type="text" value="15721448969" /></td></tr>
+<tr><th><label for="id_password">密码:</label></th><td><input class="inputxt" id="id_password" name="password" placeholder="密码" type="text" /></td></tr>
+{'username': u'15721448969', 'password': u'123456'}
+login fail!
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.f[07/Aug/2015 10:50:33] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:50:33] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:51:39] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:51:39] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:51:43] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:51:43] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:51:47] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:51:47] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:51:53] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:51:53] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:51:54] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 10:51:58] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:51:58] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:52:46] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 10:53:00] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:53:00] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:53:03] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:53:03] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:55:47] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:55:47] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 10:55:47] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 10:55:47] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 10:55:47] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:55:47] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:55:53] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 10:55:57] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:55:57] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:55:59] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:55:59] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:56:04] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:56:05] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:56:05] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:56:07] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:56:11] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:56:11] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:56:13] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:56:13] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:56:19] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:56:19] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:56:19] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:56:19] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:56:31] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 10:56:34] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:56:34] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:56:36] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:56:36] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:56:40] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:56:40] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:56:45] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:56:45] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:56:54] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:56:54] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:56:59] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:56:59] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:57:02] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:57:02] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:58:52] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:58:52] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 10:58:52] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:58:52] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 10:58:57] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 10:59:00] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:59:00] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:59:04] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:59:04] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:59:07] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 10:59:09] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 10:59:09] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 10:59:10] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 10:59:47] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 10:59:47] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 10:59:49] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 10:59:50] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 11:00:05] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 11:00:05] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 11:00:16] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:00:19] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 11:00:19] "GET /index1 HTTP/1.1" 200 893
+[07/Aug/2015 11:00:22] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 11:00:22] "GET /index1 HTTP/1.1" 200 893
+orms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.forms.LoginForm'>
+[07/Aug/2015 11:03:44] "GET /login/ HTTP/1.1" 500 174013
+Validating models...
+
+0 errors found
+August 07, 2015 - 11:03:39
+Django version 1.6.8, using settings 'ddbid.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+xxxxx
+<class 'searcher.searcher.forms.LoginForm'>
+[07/Aug/2015 11:04:33] "GET /login/ HTTP/1.1" 500 174013
+[07/Aug/2015 11:05:26] "GET /login/ HTTP/1.1" 500 174013
+[07/Aug/2015 11:05:30] "GET /login/ HTTP/1.1" 500 173318
+[07/Aug/2015 11:07:20] "GET /login/ HTTP/1.1" 500 173311
+[07/Aug/2015 11:07:23] "GET /login/ HTTP/1.1" 500 173311
+[07/Aug/2015 11:08:23] "GET /login/ HTTP/1.1" 500 172706
+[07/Aug/2015 11:08:24] "GET / HTTP/1.1" 500 172082
+Error: That port is already in use.
+[07/Aug/2015 11:09:02] "GET / HTTP/1.1" 500 172687
+Validating models...
+
+0 errors found
+August 07, 2015 - 11:04:17
+Django version 1.6.8, using settings 'ddbid.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+xxxxx
+<class 'searcher.searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.searcher.forms.LoginForm'>
+[07/Aug/2015 11:09:49] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:09:49] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 11:09:51] "GET /register/ HTTP/1.1" 500 149610
+[07/Aug/2015 11:11:08] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:11:08] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 11:11:08] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 11:11:08] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 11:11:08] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:11:08] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 11:11:12] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:11:12] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:11:17] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:11:17] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:11:20] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 11:11:20] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:11:30] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:11:30] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:11:33] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 11:11:34] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:11:41] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:11:44] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:11:44] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:11:53] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 11:11:53] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:11:56] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:11:56] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:12:05] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 11:12:05] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:13:42] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:13:42] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 11:13:42] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 11:13:42] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 11:13:42] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:13:42] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 11:13:44] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:13:44] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:14:04] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:14:04] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 11:14:04] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 11:14:04] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 11:14:04] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:14:04] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 11:14:06] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:14:06] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 11:14:06] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 11:14:06] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 11:14:06] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:14:06] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 11:14:09] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:14:09] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 11:14:09] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 11:14:09] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 11:14:09] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:14:09] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 11:15:07] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:15:07] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:15:25] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:15:25] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:15:41] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:15:41] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:15:45] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 11:15:45] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:18:20] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:18:20] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:18:22] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 11:18:22] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:19:26] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:19:31] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:19:31] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:19:34] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 11:19:34] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:22:17] "GET /register/ HTTP/1.1" 500 75593
+Traceback (most recent call last):
+  File "manage.py", line 10, in <module>
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 399, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 392, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 261, in fetch_command
+    commands = get_commands()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 107, in get_commands
+    apps = settings.INSTALLED_APPS
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 54, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 49, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 128, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/root/zc/ddbid/settings.py", line 145, in <module>
+    filemode='w')
+  File "/usr/lib/python2.7/logging/__init__.py", line 1532, in basicConfig
+    hdlr = FileHandler(filename, mode)
+  File "/usr/lib/python2.7/logging/__init__.py", line 903, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/lib/python2.7/logging/__init__.py", line 928, in _open
+    stream = open(self.baseFilename, self.mode)
+IOError: [Errno 2] No such file or directory: '/home/web/ddbid.log'
+[07/Aug/2015 11:22:59] "GET /register/ HTTP/1.1" 500 75593
+[07/Aug/2015 11:23:02] "GET /register/ HTTP/1.1" 500 75593
+[07/Aug/2015 11:23:07] "GET / HTTP/1.1" 500 74637
+[07/Aug/2015 11:23:07] "GET / HTTP/1.1" 500 74637
+Traceback (most recent call last):
+  File "manage.py", line 10, in <module>
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 399, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 392, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 261, in fetch_command
+    commands = get_commands()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 107, in get_commands
+    apps = settings.INSTALLED_APPS
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 54, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 49, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 128, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/root/zc/ddbid/settings.py", line 145, in <module>
+    filemode='w')
+  File "/usr/lib/python2.7/logging/__init__.py", line 1532, in basicConfig
+    hdlr = FileHandler(filename, mode)
+  File "/usr/lib/python2.7/logging/__init__.py", line 903, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/usr/lib/python2.7/logging/__init__.py", line 928, in _open
+    stream = open(self.baseFilename, self.mode)
+IOError: [Errno 2] No such file or directory: '/home/web/ddbid.log'
+[07/Aug/2015 11:26:15] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:26:15] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 11:26:16] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:26:16] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 11:26:16] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 11:26:16] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:26:19] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 11:26:19] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:26:24] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:26:24] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:26:43] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:26:43] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:26:50] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 11:26:50] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:27:18] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 11:27:18] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:27:19] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:27:22] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:27:23] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:27:23] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:27:24] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:27:25] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:27:25] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:27:30] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:27:30] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:29:28] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:29:28] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 11:29:28] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 11:29:28] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 11:29:28] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:29:29] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 11:29:41] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:29:41] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 11:29:41] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 11:29:41] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 11:29:41] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:29:41] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 11:29:44] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:29:47] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:30:00] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:31:01] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:31:50] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:31:53] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:31:53] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 11:31:53] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 11:31:53] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 11:31:53] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:31:53] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 11:32:04] "GET /login/ HTTP/1.1" 200 1825
+[07/Aug/2015 11:32:04] "GET /index HTTP/1.1" 404 8950
+[07/Aug/2015 11:32:06] "GET /login/ HTTP/1.1" 200 1825
+[07/Aug/2015 11:32:07] "GET /index HTTP/1.1" 404 8950
+[07/Aug/2015 11:33:36] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 11:33:36] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 11:33:36] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:33:36] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 11:33:41] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 11:33:41] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:33:43] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:33:43] "GET / HTTP/1.1" 200 893
+Validating models...
+
+0 errors found
+August 07, 2015 - 11:26:09
+Django version 1.6.8, using settings 'ddbid.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+xxxxx
+<class 'searcher.searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.searcher.forms.LoginForm'>
+xxxxx
+<class 'searcher.searcher.forms.LoginForm'>
+[07/Aug/2015 11:34:19] "GET / HTTP/1.1" 404 8941
+[07/Aug/2015 11:34:26] "GET /index HTTP/1.1" 301 0
+[07/Aug/2015 11:34:27] "GET /index/ HTTP/1.1" 200 893
+[07/Aug/2015 11:34:29] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 11:34:29] "GET /index/ HTTP/1.1" 200 893
+[07/Aug/2015 11:34:31] "GET /register/ HTTP/1.1" 200 2967
+[07/Aug/2015 11:34:31] "GET /index/ HTTP/1.1" 200 893
+[07/Aug/2015 11:34:36] "GET /login/ HTTP/1.1" 200 1826
+[07/Aug/2015 11:34:36] "GET /index/ HTTP/1.1" 200 893
+Validating models...
+
+0 errors found
+August 07, 2015 - 11:34:15
+Django version 1.6.8, using settings 'ddbid.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+xxxxx
+<class 'searcher.searcher.forms.LoginForm'>
+[07/Aug/2015 11:34:59] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:34:59] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 11:34:59] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 11:34:59] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 11:34:59] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:34:59] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 11:35:03] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:35:04] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:35:07] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:35:08] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:35:09] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 11:35:09] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:35:17] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 11:35:17] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:35:19] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 11:35:19] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:35:30] "POST /login/ HTTP/1.1" 200 140
+[07/Aug/2015 11:35:33] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 11:35:40] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:35:41] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:37:08] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:37:09] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:38:55] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:39:06] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:39:06] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 11:39:07] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:39:07] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:39:43] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:39:43] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:40:02] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:40:02] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:41:06] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:41:06] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:41:33] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:41:33] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 11:41:33] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 11:41:33] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 11:41:33] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:41:34] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 11:41:36] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:41:36] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 11:41:36] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 11:41:36] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 11:41:36] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:41:36] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 11:41:40] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:41:40] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:41:51] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 11:41:51] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:41:54] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 11:41:54] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:41:56] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:41:56] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:42:11] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 11:42:11] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 11:42:11] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:42:12] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 11:42:21] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 11:42:21] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:42:23] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:42:23] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:42:31] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 11:42:31] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 11:42:31] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:42:31] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 11:42:33] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:42:33] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:42:34] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 11:42:35] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 11:42:35] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:42:35] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 11:42:36] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 11:42:36] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 11:42:36] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:42:36] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 11:42:37] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:42:37] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:43:43] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 11:43:43] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:43:45] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:43:45] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:43:52] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:43:54] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:43:55] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:44:30] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:44:30] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:44:33] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 11:44:33] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:44:40] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 11:44:40] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:44:41] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 11:44:41] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:44:49] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:44:55] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:44:56] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:45:00] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:45:00] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 11:45:16] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 11:45:16] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:45:18] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 11:45:18] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:45:31] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:45:31] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 11:45:31] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 11:45:31] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:45:35] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 11:45:35] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:45:36] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:45:36] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:45:37] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:45:37] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:49:05] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:49:05] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 11:49:05] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 11:49:05] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 11:49:05] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:49:05] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 11:49:08] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 11:49:08] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 11:49:08] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 11:49:08] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 11:49:08] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 11:49:08] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 12:07:44] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 12:07:45] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 12:07:45] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 12:07:45] "GET /static/js/signup.js HTTP/1.1" 200 1975
+[07/Aug/2015 12:07:45] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 12:07:45] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 13:18:46] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 13:18:46] "GET /static/js/signup.js HTTP/1.1" 200 1974
+[07/Aug/2015 13:18:46] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 13:18:46] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 13:18:46] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 13:18:46] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 13:22:26] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 13:22:26] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 13:22:26] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 13:22:26] "GET /static/js/signup.js HTTP/1.1" 200 1973
+[07/Aug/2015 13:22:27] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 13:22:27] "GET /static/css/index.css HTTP/1.1" 304 0
+Validating models...
+
+0 errors found
+August 07, 2015 - 13:25:34
+Django version 1.6.8, using settings 'ddbid.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[07/Aug/2015 13:25:49] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 13:25:49] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 13:25:49] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 13:25:49] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 13:25:49] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 13:25:49] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 13:32:40] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 13:32:40] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 13:32:40] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 13:32:40] "GET /static/js/signup.js HTTP/1.1" 200 1974
+[07/Aug/2015 13:32:41] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 13:32:41] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 13:35:12] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 13:35:13] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 13:35:13] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 13:35:13] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 13:35:14] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 13:35:14] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 13:35:17] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 13:35:17] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 13:35:17] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 13:35:21] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 13:35:21] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 13:35:21] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 13:35:26] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 13:35:26] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 13:35:27] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 13:35:27] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 13:40:50] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 13:40:50] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 13:40:51] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 13:40:51] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 13:40:58] "POST /login/ HTTP/1.1" 200 140
+[07/Aug/2015 13:41:00] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 13:41:04] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 13:41:04] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 13:41:04] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 13:41:05] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 13:41:05] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 13:41:05] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 13:41:49] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 13:41:49] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 13:41:49] "GET /static/js/signup.js HTTP/1.1" 200 1974
+[07/Aug/2015 13:41:49] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 13:41:50] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 13:41:50] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 13:48:56] "GET /register/ HTTP/1.1" 200 2961
+[07/Aug/2015 13:48:57] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 13:48:57] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 13:49:00] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 13:49:00] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 14:03:08] "GET /register/ HTTP/1.1" 200 3179
+[07/Aug/2015 14:03:09] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 14:03:09] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 14:03:09] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 14:03:09] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 14:03:09] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 14:04:07] "GET /register/ HTTP/1.1" 200 3179
+[07/Aug/2015 14:04:07] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 14:04:07] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 14:04:07] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 14:04:07] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 14:04:07] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 14:06:45] "GET /register/ HTTP/1.1" 200 3261
+[07/Aug/2015 14:06:45] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 14:06:45] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 14:06:45] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 14:06:45] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 14:06:45] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 14:09:19] "GET /register/ HTTP/1.1" 200 3261
+[07/Aug/2015 14:09:19] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 14:09:19] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 14:09:19] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 14:09:19] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 14:09:19] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 14:09:44] "GET /register/ HTTP/1.1" 200 3265
+[07/Aug/2015 14:09:45] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 14:09:45] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 14:09:45] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 14:09:45] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 14:09:45] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 14:17:06] "GET /register/ HTTP/1.1" 200 3265
+[07/Aug/2015 14:17:06] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 14:17:06] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 14:17:06] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 14:17:06] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 14:17:06] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 14:25:39] "GET /register/ HTTP/1.1" 200 3425
+[07/Aug/2015 14:25:39] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 14:25:39] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 14:25:39] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 14:25:40] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 14:25:40] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 14:25:40] "GET /getverifycode/ HTTP/1.1" 200 2078
+[07/Aug/2015 14:25:41] "GET /getverifycode/?nocache=0.005635541398078203 HTTP/1.1" 200 2138
+[07/Aug/2015 14:25:42] "GET /getverifycode/?nocache=0.7398829294834286 HTTP/1.1" 200 2126
+[07/Aug/2015 14:25:42] "GET /getverifycode/?nocache=0.824552217265591 HTTP/1.1" 200 2082
+[07/Aug/2015 14:25:43] "GET /getverifycode/?nocache=0.6450373074039817 HTTP/1.1" 200 2111
+[07/Aug/2015 14:25:43] "GET /getverifycode/?nocache=0.20411002356559038 HTTP/1.1" 200 2118
+[07/Aug/2015 14:25:44] "GET /getverifycode/?nocache=0.12864022864960134 HTTP/1.1" 200 2140
+[07/Aug/2015 14:25:46] "GET /getverifycode/?nocache=0.2837628615088761 HTTP/1.1" 200 2140
+[07/Aug/2015 14:25:46] "GET /getverifycode/?nocache=0.09190594381652772 HTTP/1.1" 200 2101
+[07/Aug/2015 14:25:47] "GET /getverifycode/?nocache=0.10153741133399308 HTTP/1.1" 200 2114
+[07/Aug/2015 14:25:47] "GET /getverifycode/?nocache=0.646930752787739 HTTP/1.1" 200 2136
+[07/Aug/2015 14:25:47] "GET /getverifycode/?nocache=0.11957513797096908 HTTP/1.1" 200 2130
+[07/Aug/2015 14:25:47] "GET /getverifycode/?nocache=0.9866994642652571 HTTP/1.1" 200 2096
+[07/Aug/2015 14:25:48] "GET /getverifycode/?nocache=0.13176243752241135 HTTP/1.1" 200 1910
+[07/Aug/2015 14:25:48] "GET /getverifycode/?nocache=0.8978334909770638 HTTP/1.1" 200 2098
+[07/Aug/2015 14:25:48] "GET /getverifycode/?nocache=0.8597383205778897 HTTP/1.1" 200 2136
+[07/Aug/2015 14:25:48] "GET /getverifycode/?nocache=0.10591842792928219 HTTP/1.1" 200 2083
+[07/Aug/2015 14:25:48] "GET /getverifycode/?nocache=0.8164568631909788 HTTP/1.1" 200 1933
+[07/Aug/2015 14:25:49] "GET /getverifycode/?nocache=0.6591785235796124 HTTP/1.1" 200 2128
+[07/Aug/2015 14:25:49] "GET /getverifycode/?nocache=0.959262573858723 HTTP/1.1" 200 2129
+[07/Aug/2015 14:25:49] "GET /getverifycode/?nocache=0.6217166567221284 HTTP/1.1" 200 1742
+[07/Aug/2015 14:27:16] "POST /register/ HTTP/1.1" 200 3425
+[07/Aug/2015 14:27:16] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 14:27:16] "GET /getverifycode/ HTTP/1.1" 200 2141
+[07/Aug/2015 14:27:21] "POST /register/ HTTP/1.1" 200 3425
+[07/Aug/2015 14:27:21] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 14:27:21] "GET /getverifycode/ HTTP/1.1" 200 2068
+[07/Aug/2015 14:27:37] "POST /register/ HTTP/1.1" 200 3425
+[07/Aug/2015 14:27:37] "GET /getverifycode/ HTTP/1.1" 200 2105
+[07/Aug/2015 14:27:37] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 14:27:59] "POST /register/ HTTP/1.1" 200 3425
+[07/Aug/2015 14:28:00] "GET /getverifycode/ HTTP/1.1" 200 2047
+[07/Aug/2015 14:28:00] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 14:32:44] "POST /register/ HTTP/1.1" 200 3425
+[07/Aug/2015 14:32:44] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 14:32:44] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 14:32:44] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 14:32:44] "GET /getverifycode/ HTTP/1.1" 200 2123
+[07/Aug/2015 14:32:44] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 14:32:44] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 14:32:46] "GET /getverifycode/?nocache=0.03910528472624719 HTTP/1.1" 200 2013
+[07/Aug/2015 14:32:56] "POST /register/ HTTP/1.1" 200 3425
+[07/Aug/2015 14:32:56] "GET /getverifycode/ HTTP/1.1" 200 2083
+[07/Aug/2015 14:32:56] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 14:34:01] "POST /register/ HTTP/1.1" 200 3370
+[07/Aug/2015 14:34:01] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 14:34:01] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 14:34:01] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 14:34:01] "GET /getverifycode/ HTTP/1.1" 200 2138
+[07/Aug/2015 14:34:01] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 14:34:01] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 14:35:17] "POST /register/ HTTP/1.1" 200 3379
+[07/Aug/2015 14:35:17] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 14:35:17] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 14:35:17] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 14:35:17] "GET /getverifycode/ HTTP/1.1" 200 2096
+[07/Aug/2015 14:35:17] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 14:35:17] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 14:35:36] "POST /register/ HTTP/1.1" 200 3414
+[07/Aug/2015 14:35:36] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 14:35:36] "GET /getverifycode/ HTTP/1.1" 200 2132
+[07/Aug/2015 15:46:07] "POST /register/ HTTP/1.1" 200 46
+[07/Aug/2015 15:46:08] "GET /register/ HTTP/1.1" 200 3377
+[07/Aug/2015 15:46:10] "GET /register/ HTTP/1.1" 200 3377
+[07/Aug/2015 15:46:10] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 15:46:10] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 15:46:10] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 15:46:10] "GET /getverifycode/ HTTP/1.1" 200 2126
+[07/Aug/2015 15:46:10] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 15:46:10] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 15:58:11] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 15:58:11] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 15:58:20] "GET /register/ HTTP/1.1" 200 3377
+[07/Aug/2015 15:58:20] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 15:58:20] "GET /static/js/signup.js HTTP/1.1" 200 1246
+[07/Aug/2015 15:58:20] "GET /getverifycode/ HTTP/1.1" 200 2128
+[07/Aug/2015 15:58:20] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 15:58:29] "POST /send_smscode/ HTTP/1.1" 500 8331
+[07/Aug/2015 15:59:20] "GET /login/ HTTP/1.1" 200 1820
+[07/Aug/2015 15:59:20] "GET /static/css/signin.css HTTP/1.1" 304 0
+[07/Aug/2015 15:59:20] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 15:59:20] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 15:59:28] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 15:59:30] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 15:59:31] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 15:59:32] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 16:02:39] "POST /send_smscode/ HTTP/1.1" 500 8275
+Validating models...
+
+0 errors found
+August 07, 2015 - 15:46:00
+Django version 1.6.8, using settings 'ddbid.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+xxxddd
+<WSGIRequest
+path:/register/,
+GET:<QueryDict: {}>,
+POST:<QueryDict: {u'username': [u'15721448969'], u'smscode': [u'9077'], u'password2': [u'123456'], u'password': [u'123456']}>,
+COOKIES:{'sessionid': 's75xpzp55eyi6n0uwcx39mql7f3046iv'},
+META:{'CLASSPATH': '.:/usr/java/jdk1.6.0_27/jre/lib/rt.jar:/usr/java/jdk1.6.0_27/lib/dt.jar:/usr/java/jdk1.6.0_27/lib/tools.jar',
+ 'CONTENT_LENGTH': '66',
+ 'CONTENT_TYPE': 'application/x-www-form-urlencoded',
+ 'DJANGO_SETTINGS_MODULE': 'ddbid.settings',
+ 'GATEWAY_INTERFACE': 'CGI/1.1',
+ 'HOME': '/root',
+ 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+ 'HTTP_ACCEPT_ENCODING': 'gzip, deflate',
+ 'HTTP_ACCEPT_LANGUAGE': 'zh-CN,zh;q=0.8',
+ 'HTTP_CACHE_CONTROL': 'max-age=0',
+ 'HTTP_CONNECTION': 'keep-alive',
+ 'HTTP_COOKIE': 'sessionid=s75xpzp55eyi6n0uwcx39mql7f3046iv',
+ 'HTTP_HOST': '42.96.131.5:8000',
+ 'HTTP_ORIGIN': 'http://42.96.131.5:8000',
+ 'HTTP_REFERER': 'http://42.96.131.5:8000/register/',
+ 'HTTP_UPGRADE_INSECURE_REQUESTS': '1',
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36',
+ 'JAVA_HOME': '/usr/java/jdk1.6.0_27',
+ 'LANG': 'en_US.UTF-8',
+ 'LANGUAGE': 'en_US:',
+ 'LOGNAME': 'root',
+ 'MAIL': '/var/mail/root',
+ 'OLDPWD': '/root',
+ 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/scrapy',
+ 'PATH_INFO': u'/register/',
+ 'PWD': '/root/zc',
+ 'QUERY_STRING': '',
+ 'REMOTE_ADDR': '211.95.56.242',
+ 'REMOTE_HOST': '',
+ 'REQUEST_METHOD': 'POST',
+ 'RUN_MAIN': 'true',
+ 'SCRIPT_NAME': u'',
+ 'SERVER_NAME': 'iZ28vg01g91Z',
+ 'SERVER_PORT': '8000',
+ 'SERVER_PROTOCOL': 'HTTP/1.1',
+ 'SERVER_SOFTWARE': 'WSGIServer/0.1 Python/2.7.6',
+ 'SHELL': '/bin/bash',
+ 'SHLVL': '1',
+ 'SSH_CLIENT': '211.95.56.242 33291 22',
+ 'SSH_CONNECTION': '211.95.56.242 33291 42.96.131.5 22',
+ 'SSH_TTY': '/dev/pts/0',
+ 'TERM': 'xterm',
+ 'TZ': 'Asia/Shanghai',
+ 'USER': 'root',
+ 'XDG_RUNTIME_DIR': '/run/user/0',
+ 'XDG_SESSION_ID': '138',
+ '_': '/usr/bin/nohup',
+ 'wsgi.errors': <open file '<stderr>', mode 'w' at 0x7ff4177871e0>,
+ 'wsgi.file_wrapper': <class wsgiref.util.FileWrapper at 0x7ff414cc1c80>,
+ 'wsgi.input': <socket._fileobject object at 0x7ff413e090d0>,
+ 'wsgi.multiprocess': False,
+ 'wsgi.multithread': True,
+ 'wsgi.run_once': False,
+ 'wsgi.url_scheme': 'http',
+ 'wsgi.version': (1, 0)}>
+u_ajax:15721448969
+r_u :None
+xxxddd
+xxxddd
+xxxxx
+<class 'searcher.forms.LoginForm'>
+xxxddd
+the random_code {'smscode': 3930}
+xxxxx
+<class 'searcher.forms.LoginForm'>
+the random_code {'smscode': 3298}
+[07/Aug/2015 16:13:26] "GET /register/ HTTP/1.1" 200 3377
+[07/Aug/2015 16:13:26] "GET /static/js/jquery-1.8.3.min.js HTTP/1.1" 304 0
+[07/Aug/2015 16:13:26] "GET /static/css/signup.css HTTP/1.1" 304 0
+[07/Aug/2015 16:13:26] "GET /static/js/signup.js HTTP/1.1" 304 0
+[07/Aug/2015 16:13:26] "GET /getverifycode/ HTTP/1.1" 200 2132
+[07/Aug/2015 16:13:26] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 16:13:26] "GET /static/css/index.css HTTP/1.1" 304 0
+[07/Aug/2015 16:13:42] "POST /register/ HTTP/1.1" 200 3409
+[07/Aug/2015 16:13:42] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 16:13:42] "GET /getverifycode/ HTTP/1.1" 200 2146
+[07/Aug/2015 16:14:35] "POST /send_smscode/ HTTP/1.1" 500 8217
+Validating models...
+
+0 errors found
+August 07, 2015 - 16:13:18
+Django version 1.6.8, using settings 'ddbid.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+xxxddd
+xxxddd
+<WSGIRequest
+path:/register/,
+GET:<QueryDict: {}>,
+POST:<QueryDict: {u'username': [u'15721448969'], u'smscode': [u'111'], u'password2': [u'123456'], u'password': [u'123456']}>,
+COOKIES:{'sessionid': 's75xpzp55eyi6n0uwcx39mql7f3046iv'},
+META:{'CLASSPATH': '.:/usr/java/jdk1.6.0_27/jre/lib/rt.jar:/usr/java/jdk1.6.0_27/lib/dt.jar:/usr/java/jdk1.6.0_27/lib/tools.jar',
+ 'CONTENT_LENGTH': '65',
+ 'CONTENT_TYPE': 'application/x-www-form-urlencoded',
+ 'DJANGO_SETTINGS_MODULE': 'ddbid.settings',
+ 'GATEWAY_INTERFACE': 'CGI/1.1',
+ 'HOME': '/root',
+ 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+ 'HTTP_ACCEPT_ENCODING': 'gzip, deflate',
+ 'HTTP_ACCEPT_LANGUAGE': 'zh-CN,zh;q=0.8',
+ 'HTTP_CACHE_CONTROL': 'max-age=0',
+ 'HTTP_CONNECTION': 'keep-alive',
+ 'HTTP_COOKIE': 'sessionid=s75xpzp55eyi6n0uwcx39mql7f3046iv',
+ 'HTTP_HOST': '42.96.131.5:8000',
+ 'HTTP_ORIGIN': 'http://42.96.131.5:8000',
+ 'HTTP_REFERER': 'http://42.96.131.5:8000/register/',
+ 'HTTP_UPGRADE_INSECURE_REQUESTS': '1',
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36',
+ 'JAVA_HOME': '/usr/java/jdk1.6.0_27',
+ 'LANG': 'en_US.UTF-8',
+ 'LANGUAGE': 'en_US:',
+ 'LOGNAME': 'root',
+ 'MAIL': '/var/mail/root',
+ 'OLDPWD': '/root',
+ 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/scrapy',
+ 'PATH_INFO': u'/register/',
+ 'PWD': '/root/zc',
+ 'QUERY_STRING': '',
+ 'REMOTE_ADDR': '211.95.56.242',
+ 'REMOTE_HOST': '',
+ 'REQUEST_METHOD': 'POST',
+ 'RUN_MAIN': 'true',
+ 'SCRIPT_NAME': u'',
+ 'SERVER_NAME': 'iZ28vg01g91Z',
+ 'SERVER_PORT': '8000',
+ 'SERVER_PROTOCOL': 'HTTP/1.1',
+ 'SERVER_SOFTWARE': 'WSGIServer/0.1 Python/2.7.6',
+ 'SHELL': '/bin/bash',
+ 'SHLVL': '1',
+ 'SSH_CLIENT': '211.95.56.242 33291 22',
+ 'SSH_CONNECTION': '211.95.56.242 33291 42.96.131.5 22',
+ 'SSH_TTY': '/dev/pts/0',
+ 'TERM': 'xterm',
+ 'TZ': 'Asia/Shanghai',
+ 'USER': 'root',
+ 'XDG_RUNTIME_DIR': '/run/user/0',
+ 'XDG_SESSION_ID': '138',
+ '_': '/usr/bin/nohup',
+ 'wsgi.errors': <open file '<stderr>', mode 'w' at 0x7f5c27bb31e0>,
+ 'wsgi.file_wrapper': <class wsgiref.util.FileWrapper at 0x7f5c250edc80>,
+ 'wsgi.input': <socket._fileobject object at 0x7f5c200a56d0>,
+ 'wsgi.multiprocess': False,
+ 'wsgi.multithread': True,
+ 'wsgi.run_once': False,
+ 'wsgi.url_scheme': 'http',
+ 'wsgi.version': (1, 0)}>
+u_ajax:15721448969
+r_u :None
+the random_code {'smscode': 4838}
+00
+xxxddd
+<WSGIRequest
+path:/register/,
+GET:<QueryDict: {}>,
+POST:<QueryDict: {u'username': [u'15721448969'], u'smscode': [u'4838'], u'password2': [u'123456'], u'password': [u'123456']}>,
+COOKIES:{'sessionid': 's75xpzp55eyi6n0uwcx39mql7f3046iv'},
+META:{'CLASSPATH': '.:/usr/java/jdk1.6.0_27/jre/lib/rt.jar:/usr/java/jdk1.6.0_27/lib/dt.jar:/usr/java/jdk1.6.0_27/lib/tools.jar',
+ 'CONTENT_LENGTH': '66',
+ 'CONTENT_TYPE': 'application/x-www-form-urlencoded',
+ 'DJANGO_SETTINGS_MODULE': 'ddbid.settings',
+ 'GATEWAY_INTERFACE': 'CGI/1.1',
+ 'HOME': '/root',
+ 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+ 'HTTP_ACCEPT_ENCODING': 'gzip, deflate',
+ 'HTTP_ACCEPT_LANGUAGE': 'zh-CN,zh;q=0.8',
+ 'HTTP_CACHE_CONTROL': 'max-age=0',
+ 'HTTP_CONNECTION': 'keep-alive',
+ 'HTTP_COOKIE': 'sessionid=s75xpzp55eyi6n0uwcx39mql7f3046iv',
+ 'HTTP_HOST': '42.96.131.5:8000',
+ 'HTTP_ORIGIN': 'http://42.96.131.5:8000',
+ 'HTTP_REFERER': 'http://42.96.131.5:8000/register/',
+ 'HTTP_UPGRADE_INSECURE_REQUESTS': '1',
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36',
+ 'JAVA_HOME': '/usr/java/jdk1.6.0_27',
+ 'LANG': 'en_US.UTF-8',
+ 'LANGUAGE': 'en_US:',
+ 'LOGNAME': 'root',
+ 'MAIL': '/var/mail/root',
+ 'OLDPWD': '/root',
+ 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:[07/Aug/2015 16:15:21] "POST /register/ HTTP/1.1" 200 3410
+[07/Aug/2015 16:15:21] "GET /getverifycode/ HTTP/1.1" 200 2139
+[07/Aug/2015 16:15:21] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 16:34:46] "GET /login/ HTTP/1.1" 200 1847
+[07/Aug/2015 16:34:46] "GET /static/css/signin.css HTTP/1.1" 200 1226
+[07/Aug/2015 16:34:46] "GET / HTTP/1.1" 200 893
+[07/Aug/2015 16:34:46] "GET /static/css/index.css HTTP/1.1" 304 0

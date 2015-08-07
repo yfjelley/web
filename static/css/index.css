@@ -1,32 +1,26 @@
 body{
 	margin:0px 0px 0px 220px;
 
-
 }
 a{
 text-decoration:none;
 color:#FFFFFF;
 }
 
-#main{
-	
-	-moz-columns:95px 12;
-	-webkit-columns:95px 12;
-	columns:95px 12;
-	height:500px;
-}
 
 #container{
+
 	background-color:#372c3a;
-	height:60px;
+	height:70px;
 	width:1140px;
-	margin-left:-220px;	
+	margin-left:-210px;
+
 }
 
 .tab1{
-	font-size:14px;
+	font-size:18px;
 	color:#FFFFFF;
-	margin-left:200px;
+	margin-left:250px;
 	border-spacing:20px;
 
 }
@@ -36,6 +30,6 @@ color:#FFFFFF;
 	color:#FFFFFF;
 	float:right;
 	margin-top:-65px;
-	margin-right:150px;
+	margin-right:100px;
 	border-spacing:20px;
 }

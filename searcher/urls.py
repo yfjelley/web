@@ -2,8 +2,7 @@ from django.conf.urls import patterns, url
 
 urlpatterns = patterns('searcher.views',
     url(r'^contact/$', 'contact', name='contact'),
-    url(r'^$', 'index', name='searchindex'),
-     url(r'^index1$', 'index1', name='index1'),
+    url(r'^$', 'index', name='index'),
     url(r'^login/$',  'login', name='login'),
     url(r'^logout/$',  'logout', name='logout'),
     url(r'^register/$',  'register', name='register'),
